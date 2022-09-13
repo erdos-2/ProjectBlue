@@ -33,10 +33,10 @@
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tbHome = new System.Windows.Forms.TabPage();
             this.tbSearch = new System.Windows.Forms.TabPage();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.tbFavorites = new System.Windows.Forms.TabPage();
             this.tbOrders = new System.Windows.Forms.TabPage();
             this.tbAccount = new System.Windows.Forms.TabPage();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
             this.materialTabControl1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -80,16 +80,6 @@
             this.tbSearch.TabIndex = 1;
             this.tbSearch.Text = "Search";
             // 
-            // imageList1
-            // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "star_FILL0_wght400_GRAD0_opsz48.png");
-            this.imageList1.Images.SetKeyName(1, "account_circle_FILL0_wght400_GRAD0_opsz48.png");
-            this.imageList1.Images.SetKeyName(2, "list_alt_FILL0_wght400_GRAD0_opsz48.png");
-            this.imageList1.Images.SetKeyName(3, "search_FILL0_wght400_GRAD0_opsz48.png");
-            this.imageList1.Images.SetKeyName(4, "home_FILL0_wght400_GRAD0_opsz48.png");
-            // 
             // tbFavorites
             // 
             this.tbFavorites.BackColor = System.Drawing.Color.White;
@@ -120,6 +110,16 @@
             this.tbAccount.Size = new System.Drawing.Size(1050, 518);
             this.tbAccount.TabIndex = 4;
             this.tbAccount.Text = "Account";
+            // 
+            // imageList1
+            // 
+            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            this.imageList1.Images.SetKeyName(0, "star_FILL0_wght400_GRAD0_opsz48.png");
+            this.imageList1.Images.SetKeyName(1, "account_circle_FILL0_wght400_GRAD0_opsz48.png");
+            this.imageList1.Images.SetKeyName(2, "list_alt_FILL0_wght400_GRAD0_opsz48.png");
+            this.imageList1.Images.SetKeyName(3, "search_FILL0_wght400_GRAD0_opsz48.png");
+            this.imageList1.Images.SetKeyName(4, "home_FILL0_wght400_GRAD0_opsz48.png");
             // 
             // MainForm
             // 

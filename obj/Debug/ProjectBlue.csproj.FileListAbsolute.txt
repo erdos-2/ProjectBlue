@@ -11,3 +11,4 @@ C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.Co
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.CopyComplete
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.exe
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.pdb
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardLarge.resources

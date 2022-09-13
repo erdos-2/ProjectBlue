@@ -1,0 +1,13 @@
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ProjectBlue.exe.config
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ProjectBlue.exe
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ProjectBlue.pdb
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\MaterialSkin.dll
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.AssemblyReference.cache
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.SuggestedBindingRedirects.cache
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.MainForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.Properties.Resources.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.GenerateResource.cache
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.CoreCompileInputs.cache
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.CopyComplete
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.exe
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.pdb

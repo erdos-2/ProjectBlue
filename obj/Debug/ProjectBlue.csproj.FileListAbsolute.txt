@@ -11,4 +11,9 @@ C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.Co
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.CopyComplete
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.exe
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.pdb
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Toolkit.dll
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Toolkit.pdb
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardMedium.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardSmall.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardLarge.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardFav.resources

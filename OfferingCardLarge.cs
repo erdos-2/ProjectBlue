@@ -19,8 +19,6 @@ namespace ProjectBlue
             get { return _offeringImg; }
             set { _offeringImg = value; pbOfferingImg.Image = value; }
         }
-
-
         private string _offeringName;
 
         public string OfferingName
@@ -28,15 +26,6 @@ namespace ProjectBlue
             get { return _offeringName; }
             set { _offeringName = value; lblOfferingName.Text = value; }
         }
-
-        private decimal _offeringPrice;
-
-        public decimal OfferingPrice
-        {
-            get { return _offeringPrice; }
-            set { _offeringPrice = value; lblOfferingPrice.Text = value.ToString() + " ETB"; }
-        }
-
         private string _restaurantName;
 
         public string RestaurantName
@@ -45,12 +34,17 @@ namespace ProjectBlue
             set { _restaurantName = value; lblRestaurantName.Text = value; }
         }
 
+        private string _time;
+
+        public string Time
+        {
+            get { return _time; }
+            set { _time = value; lblTime.Text = value; }
+        }
+
         public OfferingCardLarge()
         {
             InitializeComponent();
-            OfferingName = "Offering Name";
-            OfferingPrice = 0;
-            RestaurantName = "Restaurant Name";
         }
     }
 }

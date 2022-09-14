@@ -28,57 +28,57 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
+            this.materialCard5 = new MaterialSkin.Controls.MaterialCard();
+            this.lblTime = new MaterialSkin.Controls.MaterialLabel();
             this.lblRestaurantName = new MaterialSkin.Controls.MaterialLabel();
-            this.lblOfferingPrice = new MaterialSkin.Controls.MaterialLabel();
             this.lblOfferingName = new MaterialSkin.Controls.MaterialLabel();
             this.pbOfferingImg = new System.Windows.Forms.PictureBox();
-            this.materialCard1.SuspendLayout();
+            this.materialCard5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImg)).BeginInit();
             this.SuspendLayout();
             // 
-            // materialCard1
+            // materialCard5
             // 
-            this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard1.Controls.Add(this.lblRestaurantName);
-            this.materialCard1.Controls.Add(this.lblOfferingPrice);
-            this.materialCard1.Controls.Add(this.lblOfferingName);
-            this.materialCard1.Controls.Add(this.pbOfferingImg);
-            this.materialCard1.Depth = 0;
-            this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.materialCard1.Location = new System.Drawing.Point(3, 2);
-            this.materialCard1.Margin = new System.Windows.Forms.Padding(14);
-            this.materialCard1.MaximumSize = new System.Drawing.Size(375, 150);
-            this.materialCard1.MinimumSize = new System.Drawing.Size(375, 150);
-            this.materialCard1.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialCard1.Name = "materialCard1";
-            this.materialCard1.Padding = new System.Windows.Forms.Padding(14);
-            this.materialCard1.Size = new System.Drawing.Size(375, 150);
-            this.materialCard1.TabIndex = 0;
+            this.materialCard5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialCard5.Controls.Add(this.lblTime);
+            this.materialCard5.Controls.Add(this.lblRestaurantName);
+            this.materialCard5.Controls.Add(this.lblOfferingName);
+            this.materialCard5.Controls.Add(this.pbOfferingImg);
+            this.materialCard5.Depth = 0;
+            this.materialCard5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialCard5.Location = new System.Drawing.Point(3, 2);
+            this.materialCard5.Margin = new System.Windows.Forms.Padding(14);
+            this.materialCard5.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialCard5.Name = "materialCard5";
+            this.materialCard5.Padding = new System.Windows.Forms.Padding(14);
+            this.materialCard5.Size = new System.Drawing.Size(215, 320);
+            this.materialCard5.TabIndex = 1;
+            // 
+            // lblTime
+            // 
+            this.lblTime.AutoSize = true;
+            this.lblTime.Depth = 0;
+            this.lblTime.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblTime.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.lblTime.Location = new System.Drawing.Point(17, 287);
+            this.lblTime.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblTime.Name = "lblTime";
+            this.lblTime.Size = new System.Drawing.Size(37, 19);
+            this.lblTime.TabIndex = 3;
+            this.lblTime.Text = "Time";
             // 
             // lblRestaurantName
             // 
             this.lblRestaurantName.AutoSize = true;
             this.lblRestaurantName.Depth = 0;
-            this.lblRestaurantName.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lblRestaurantName.Location = new System.Drawing.Point(170, 97);
+            this.lblRestaurantName.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblRestaurantName.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.lblRestaurantName.Location = new System.Drawing.Point(17, 258);
             this.lblRestaurantName.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblRestaurantName.Name = "lblRestaurantName";
             this.lblRestaurantName.Size = new System.Drawing.Size(124, 19);
-            this.lblRestaurantName.TabIndex = 3;
+            this.lblRestaurantName.TabIndex = 2;
             this.lblRestaurantName.Text = "Restaurant Name";
-            // 
-            // lblOfferingPrice
-            // 
-            this.lblOfferingPrice.AutoSize = true;
-            this.lblOfferingPrice.Depth = 0;
-            this.lblOfferingPrice.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.lblOfferingPrice.Location = new System.Drawing.Point(170, 58);
-            this.lblOfferingPrice.MouseState = MaterialSkin.MouseState.HOVER;
-            this.lblOfferingPrice.Name = "lblOfferingPrice";
-            this.lblOfferingPrice.Size = new System.Drawing.Size(98, 19);
-            this.lblOfferingPrice.TabIndex = 2;
-            this.lblOfferingPrice.Text = "Offering Price";
             // 
             // lblOfferingName
             // 
@@ -86,7 +86,7 @@
             this.lblOfferingName.Depth = 0;
             this.lblOfferingName.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.lblOfferingName.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.lblOfferingName.Location = new System.Drawing.Point(170, 14);
+            this.lblOfferingName.Location = new System.Drawing.Point(17, 222);
             this.lblOfferingName.MouseState = MaterialSkin.MouseState.HOVER;
             this.lblOfferingName.Name = "lblOfferingName";
             this.lblOfferingName.Size = new System.Drawing.Size(132, 24);
@@ -98,7 +98,7 @@
             this.pbOfferingImg.BackColor = System.Drawing.Color.Silver;
             this.pbOfferingImg.Location = new System.Drawing.Point(5, 5);
             this.pbOfferingImg.Name = "pbOfferingImg";
-            this.pbOfferingImg.Size = new System.Drawing.Size(140, 140);
+            this.pbOfferingImg.Size = new System.Drawing.Size(205, 205);
             this.pbOfferingImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pbOfferingImg.TabIndex = 0;
             this.pbOfferingImg.TabStop = false;
@@ -106,13 +106,13 @@
             // OfferingCardLarge
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.Controls.Add(this.materialCard1);
-            this.MaximumSize = new System.Drawing.Size(380, 155);
-            this.MinimumSize = new System.Drawing.Size(380, 155);
+            this.Controls.Add(this.materialCard5);
+            this.MaximumSize = new System.Drawing.Size(220, 325);
+            this.MinimumSize = new System.Drawing.Size(220, 325);
             this.Name = "OfferingCardLarge";
-            this.Size = new System.Drawing.Size(380, 155);
-            this.materialCard1.ResumeLayout(false);
-            this.materialCard1.PerformLayout();
+            this.Size = new System.Drawing.Size(220, 325);
+            this.materialCard5.ResumeLayout(false);
+            this.materialCard5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImg)).EndInit();
             this.ResumeLayout(false);
 
@@ -120,10 +120,10 @@
 
         #endregion
 
-        private MaterialSkin.Controls.MaterialCard materialCard1;
-        private System.Windows.Forms.PictureBox pbOfferingImg;
+        private MaterialSkin.Controls.MaterialCard materialCard5;
+        private MaterialSkin.Controls.MaterialLabel lblTime;
         private MaterialSkin.Controls.MaterialLabel lblRestaurantName;
-        private MaterialSkin.Controls.MaterialLabel lblOfferingPrice;
         private MaterialSkin.Controls.MaterialLabel lblOfferingName;
+        private System.Windows.Forms.PictureBox pbOfferingImg;
     }
 }

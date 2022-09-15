@@ -17,4 +17,3 @@ C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingC
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardSmall.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardLarge.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardFav.resources
-C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.TestForm.resources

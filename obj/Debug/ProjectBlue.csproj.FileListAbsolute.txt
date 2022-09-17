@@ -17,3 +17,13 @@ C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingC
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardSmall.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardLarge.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingCardFav.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.LoginForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.SignUpForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Docking.dll
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Navigator.dll
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Ribbon.dll
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Workspace.dll
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Docking.pdb
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Workspace.pdb

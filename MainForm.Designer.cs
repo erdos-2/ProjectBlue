@@ -75,7 +75,7 @@
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialDivider2 = new MaterialSkin.Controls.MaterialDivider();
             this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
-            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.ilTabIcons = new System.Windows.Forms.ImageList(this.components);
             this.materialTabControl1.SuspendLayout();
             this.tbHome.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
@@ -98,13 +98,13 @@
             this.materialTabControl1.Controls.Add(this.tbAccount);
             this.materialTabControl1.Depth = 0;
             this.materialTabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.materialTabControl1.ImageList = this.imageList1;
-            this.materialTabControl1.Location = new System.Drawing.Point(0, 72);
+            this.materialTabControl1.ImageList = this.ilTabIcons;
+            this.materialTabControl1.Location = new System.Drawing.Point(0, 80);
             this.materialTabControl1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialTabControl1.Multiline = true;
             this.materialTabControl1.Name = "materialTabControl1";
             this.materialTabControl1.SelectedIndex = 0;
-            this.materialTabControl1.Size = new System.Drawing.Size(1061, 553);
+            this.materialTabControl1.Size = new System.Drawing.Size(1077, 584);
             this.materialTabControl1.TabIndex = 0;
             // 
             // tbHome
@@ -120,7 +120,7 @@
             this.tbHome.Location = new System.Drawing.Point(4, 39);
             this.tbHome.Name = "tbHome";
             this.tbHome.Padding = new System.Windows.Forms.Padding(3);
-            this.tbHome.Size = new System.Drawing.Size(1053, 510);
+            this.tbHome.Size = new System.Drawing.Size(1069, 541);
             this.tbHome.TabIndex = 0;
             this.tbHome.Text = "Home";
             // 
@@ -306,7 +306,7 @@
             this.tbSearch.Location = new System.Drawing.Point(4, 39);
             this.tbSearch.Name = "tbSearch";
             this.tbSearch.Padding = new System.Windows.Forms.Padding(3);
-            this.tbSearch.Size = new System.Drawing.Size(1053, 510);
+            this.tbSearch.Size = new System.Drawing.Size(1069, 541);
             this.tbSearch.TabIndex = 1;
             this.tbSearch.Text = "Search";
             // 
@@ -412,7 +412,7 @@
             this.tbFavorites.Location = new System.Drawing.Point(4, 39);
             this.tbFavorites.Name = "tbFavorites";
             this.tbFavorites.Padding = new System.Windows.Forms.Padding(3);
-            this.tbFavorites.Size = new System.Drawing.Size(1053, 510);
+            this.tbFavorites.Size = new System.Drawing.Size(1069, 541);
             this.tbFavorites.TabIndex = 2;
             this.tbFavorites.Text = "Favorites";
             // 
@@ -479,7 +479,7 @@
             this.tbOrders.ImageKey = "list_alt_FILL0_wght400_GRAD0_opsz48.png";
             this.tbOrders.Location = new System.Drawing.Point(4, 39);
             this.tbOrders.Name = "tbOrders";
-            this.tbOrders.Size = new System.Drawing.Size(1053, 510);
+            this.tbOrders.Size = new System.Drawing.Size(1069, 541);
             this.tbOrders.TabIndex = 3;
             this.tbOrders.Text = "Orders";
             // 
@@ -556,7 +556,7 @@
             this.tbAccount.ImageKey = "account_circle_FILL0_wght400_GRAD0_opsz48.png";
             this.tbAccount.Location = new System.Drawing.Point(4, 39);
             this.tbAccount.Name = "tbAccount";
-            this.tbAccount.Size = new System.Drawing.Size(1053, 510);
+            this.tbAccount.Size = new System.Drawing.Size(1069, 541);
             this.tbAccount.TabIndex = 4;
             this.tbAccount.Text = "Account";
             // 
@@ -734,28 +734,29 @@
             this.materialDivider1.TabIndex = 0;
             this.materialDivider1.Text = "materialDivider1";
             // 
-            // imageList1
+            // ilTabIcons
             // 
-            this.imageList1.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imageList1.ImageStream")));
-            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
-            this.imageList1.Images.SetKeyName(0, "home_FILL0_wght400_GRAD0_opsz48.png");
-            this.imageList1.Images.SetKeyName(1, "search_FILL0_wght400_GRAD0_opsz48.png");
-            this.imageList1.Images.SetKeyName(2, "star_FILL0_wght400_GRAD0_opsz48.png");
-            this.imageList1.Images.SetKeyName(3, "list_alt_FILL0_wght400_GRAD0_opsz48.png");
-            this.imageList1.Images.SetKeyName(4, "account_circle_FILL0_wght400_GRAD0_opsz48.png");
+            this.ilTabIcons.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("ilTabIcons.ImageStream")));
+            this.ilTabIcons.TransparentColor = System.Drawing.Color.Transparent;
+            this.ilTabIcons.Images.SetKeyName(0, "account_circle_FILL0_wght400_GRAD0_opsz48.png");
+            this.ilTabIcons.Images.SetKeyName(1, "home_FILL0_wght400_GRAD0_opsz48.png");
+            this.ilTabIcons.Images.SetKeyName(2, "list_alt_FILL0_wght400_GRAD0_opsz48.png");
+            this.ilTabIcons.Images.SetKeyName(3, "round_more_vert_black_24dp.png");
+            this.ilTabIcons.Images.SetKeyName(4, "search_FILL0_wght400_GRAD0_opsz48.png");
+            this.ilTabIcons.Images.SetKeyName(5, "star_FILL0_wght400_GRAD0_opsz48.png");
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1064, 628);
+            this.ClientSize = new System.Drawing.Size(1080, 667);
             this.Controls.Add(this.materialTabControl1);
             this.DrawerShowIconsWhenHidden = true;
             this.DrawerTabControl = this.materialTabControl1;
-            this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_48;
+            this.FormStyle = MaterialSkin.Controls.MaterialForm.FormStyles.ActionBar_56;
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Padding = new System.Windows.Forms.Padding(0, 72, 3, 3);
+            this.Padding = new System.Windows.Forms.Padding(0, 80, 3, 3);
             this.Sizable = false;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Enbila";
@@ -786,7 +787,7 @@
         private System.Windows.Forms.TabPage tbHome;
         private System.Windows.Forms.TabPage tbFavorites;
         private System.Windows.Forms.TabPage tbOrders;
-        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.ImageList ilTabIcons;
         private System.Windows.Forms.TabPage tbAccount;
         private MaterialSkin.Controls.MaterialCard materialCard4;
         private MaterialSkin.Controls.MaterialLabel materialLabel10;

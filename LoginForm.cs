@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using ComponentFactory.Krypton.Toolkit;
+using MaterialSkin;
+using MaterialSkin.Controls;
 
 namespace ProjectBlue
 {
@@ -16,6 +18,17 @@ namespace ProjectBlue
         public LoginForm()
         {
             InitializeComponent();
+
+            var materialSkinManager = MaterialSkinManager.Instance;
+            materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.Blue700, TextShade.WHITE);
+        }
+
+        private void llblGoToSignupForm_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            Hide();
+            SignupForm signupForm1 = new SignupForm();
+            signupForm1.ShowDialog();
+            Close();
         }
     }
 }

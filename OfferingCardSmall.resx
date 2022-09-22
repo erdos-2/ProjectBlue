@@ -120,10 +120,10 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="pbIcon.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAACLSURBVGhD7dZBCoAgEIVh79H5O1qtukP5Q22krYwP/g8ehG5GcWKaJEkTbD17z/mGb9YiUOjV
-        cw9hLeIQ3PZY/Bf2lnf0/BVP2Fte/AHin1B8E4NCue3I36ik8CamUGehSs5C1eKfUHwTg0K5bWchKVR0
-        E1Oos1AlZ6Fq8U8ovolBody2s5AkaaLWHkC9kjXo/XC9AAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAItJREFUaEPt
+        1kEKgCAQhWHv0fk7Wq26Q/lDbaStjA/+Dx6EbkZxYpokSRNsPXvP+YZv1iJQ6NVzD2Et4hDc9lj8F/aW
+        d/T8FU/YW178AeKfUHwTg0K57cjfqKTwJqZQZ6FKzkLV4p9QfBODQrltZyEpVHQTU6izUCVnoWrxTyi+
+        iUGh3LazkCRpotYeQL2SNej9cL0AAAAASUVORK5CYII=
 </value>
   </data>
 </root>

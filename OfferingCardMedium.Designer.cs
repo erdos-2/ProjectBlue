@@ -32,9 +32,9 @@
             this.lblRestaurantName = new MaterialSkin.Controls.MaterialLabel();
             this.lblOfferingPrice = new MaterialSkin.Controls.MaterialLabel();
             this.lblOfferingName = new MaterialSkin.Controls.MaterialLabel();
-            this.pbOfferingImg = new System.Windows.Forms.PictureBox();
+            this.pbOfferingImage = new System.Windows.Forms.PictureBox();
             this.materialCard1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImage)).BeginInit();
             this.SuspendLayout();
             // 
             // materialCard1
@@ -43,7 +43,7 @@
             this.materialCard1.Controls.Add(this.lblRestaurantName);
             this.materialCard1.Controls.Add(this.lblOfferingPrice);
             this.materialCard1.Controls.Add(this.lblOfferingName);
-            this.materialCard1.Controls.Add(this.pbOfferingImg);
+            this.materialCard1.Controls.Add(this.pbOfferingImage);
             this.materialCard1.Depth = 0;
             this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialCard1.Location = new System.Drawing.Point(3, 2);
@@ -93,27 +93,27 @@
             this.lblOfferingName.TabIndex = 1;
             this.lblOfferingName.Text = "Offering Name";
             // 
-            // pbOfferingImg
+            // pbOfferingImage
             // 
-            this.pbOfferingImg.BackColor = System.Drawing.Color.Silver;
-            this.pbOfferingImg.Location = new System.Drawing.Point(5, 5);
-            this.pbOfferingImg.Name = "pbOfferingImg";
-            this.pbOfferingImg.Size = new System.Drawing.Size(140, 140);
-            this.pbOfferingImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbOfferingImg.TabIndex = 0;
-            this.pbOfferingImg.TabStop = false;
+            this.pbOfferingImage.BackColor = System.Drawing.Color.Silver;
+            this.pbOfferingImage.Location = new System.Drawing.Point(5, 5);
+            this.pbOfferingImage.Name = "pbOfferingImage";
+            this.pbOfferingImage.Size = new System.Drawing.Size(140, 140);
+            this.pbOfferingImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbOfferingImage.TabIndex = 0;
+            this.pbOfferingImage.TabStop = false;
             // 
-            // OfferingCardLarge
+            // OfferingCardMedium
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.materialCard1);
             this.MaximumSize = new System.Drawing.Size(380, 155);
             this.MinimumSize = new System.Drawing.Size(380, 155);
-            this.Name = "OfferingCardLarge";
+            this.Name = "OfferingCardMedium";
             this.Size = new System.Drawing.Size(380, 155);
             this.materialCard1.ResumeLayout(false);
             this.materialCard1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -121,7 +121,7 @@
         #endregion
 
         private MaterialSkin.Controls.MaterialCard materialCard1;
-        private System.Windows.Forms.PictureBox pbOfferingImg;
+        private System.Windows.Forms.PictureBox pbOfferingImage;
         private MaterialSkin.Controls.MaterialLabel lblRestaurantName;
         private MaterialSkin.Controls.MaterialLabel lblOfferingPrice;
         private MaterialSkin.Controls.MaterialLabel lblOfferingName;

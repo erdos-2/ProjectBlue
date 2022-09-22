@@ -33,10 +33,10 @@
             this.lblOfferingPrice = new MaterialSkin.Controls.MaterialLabel();
             this.lblOfferingName = new MaterialSkin.Controls.MaterialLabel();
             this.pbIcon = new System.Windows.Forms.PictureBox();
-            this.pbOfferingImg = new System.Windows.Forms.PictureBox();
+            this.pbOfferingImage = new System.Windows.Forms.PictureBox();
             this.materialCard1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImg)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImage)).BeginInit();
             this.SuspendLayout();
             // 
             // materialCard1
@@ -45,7 +45,7 @@
             this.materialCard1.Controls.Add(this.lblOfferingPrice);
             this.materialCard1.Controls.Add(this.lblOfferingName);
             this.materialCard1.Controls.Add(this.pbIcon);
-            this.materialCard1.Controls.Add(this.pbOfferingImg);
+            this.materialCard1.Controls.Add(this.pbOfferingImage);
             this.materialCard1.Depth = 0;
             this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialCard1.Location = new System.Drawing.Point(3, 2);
@@ -91,15 +91,15 @@
             this.pbIcon.TabIndex = 1;
             this.pbIcon.TabStop = false;
             // 
-            // pbOfferingImg
+            // pbOfferingImage
             // 
-            this.pbOfferingImg.BackColor = System.Drawing.Color.Silver;
-            this.pbOfferingImg.Location = new System.Drawing.Point(3, 3);
-            this.pbOfferingImg.Name = "pbOfferingImg";
-            this.pbOfferingImg.Size = new System.Drawing.Size(80, 80);
-            this.pbOfferingImg.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbOfferingImg.TabIndex = 0;
-            this.pbOfferingImg.TabStop = false;
+            this.pbOfferingImage.BackColor = System.Drawing.Color.Silver;
+            this.pbOfferingImage.Location = new System.Drawing.Point(3, 3);
+            this.pbOfferingImage.Name = "pbOfferingImage";
+            this.pbOfferingImage.Size = new System.Drawing.Size(80, 80);
+            this.pbOfferingImage.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbOfferingImage.TabIndex = 0;
+            this.pbOfferingImage.TabStop = false;
             // 
             // OfferingCardFav
             // 
@@ -110,7 +110,7 @@
             this.materialCard1.ResumeLayout(false);
             this.materialCard1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbIcon)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImg)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImage)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -121,6 +121,6 @@
         private MaterialSkin.Controls.MaterialLabel lblOfferingPrice;
         private MaterialSkin.Controls.MaterialLabel lblOfferingName;
         private System.Windows.Forms.PictureBox pbIcon;
-        private System.Windows.Forms.PictureBox pbOfferingImg;
+        private System.Windows.Forms.PictureBox pbOfferingImage;
     }
 }

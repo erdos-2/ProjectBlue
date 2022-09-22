@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace ProjectBlue.Model_Classes
 {
-    internal class Restaurant
+    public class Restaurant
     {
         public string ID { get; set; }
+        public Image Image { get; set; }
         public string Name { get; set; }
-        public string Location { get; set; }
+        public string Address { get; set; }
         public string PhoneNo { get; set; }
         public string ServiceOptions { get; set; }
         public string WorkingHours { get; set; }

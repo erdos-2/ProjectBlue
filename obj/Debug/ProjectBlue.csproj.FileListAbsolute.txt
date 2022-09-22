@@ -27,3 +27,5 @@ C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Kryp
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Navigator.pdb
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Ribbon.pdb
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.AddRestaurantForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.AddOfferingForm.resources

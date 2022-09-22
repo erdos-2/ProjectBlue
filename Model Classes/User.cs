@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectBlue.Model_Classes
 {
-    internal class User
+    public class User
     {
         public string FullName { get; set; }
         public string Username { get; set; } // should uniquely identify a user

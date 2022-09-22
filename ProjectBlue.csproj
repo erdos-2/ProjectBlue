@@ -65,6 +65,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddOfferingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddOfferingForm.Designer.cs">
+      <DependentUpon>AddOfferingForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddRestaurantForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRestaurantForm.Designer.cs">
+      <DependentUpon>AddRestaurantForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +124,12 @@
     <Compile Include="SignupForm.Designer.cs">
       <DependentUpon>SignupForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AddOfferingForm.resx">
+      <DependentUpon>AddOfferingForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddRestaurantForm.resx">
+      <DependentUpon>AddRestaurantForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -162,6 +180,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\food collage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\round_close_black_24dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

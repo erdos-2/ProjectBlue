@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.materialTextBox21 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.materialTextBox23 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.txtRestaurantName = new MaterialSkin.Controls.MaterialTextBox2();
+            this.txtPhoneNumber = new MaterialSkin.Controls.MaterialTextBox2();
             this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox2 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
@@ -37,77 +37,77 @@
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
             this.materialDivider2 = new MaterialSkin.Controls.MaterialDivider();
-            this.btnLogIn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.btnSave = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.label1 = new System.Windows.Forms.Label();
             this.pbClose = new System.Windows.Forms.PictureBox();
             this.pbRestaurantImage = new System.Windows.Forms.PictureBox();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialTextBox26 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.materialTextBox27 = new MaterialSkin.Controls.MaterialTextBox2();
-            this.materialTextBox22 = new MaterialSkin.Controls.MaterialTextBox2();
+            this.txtClosingTime = new MaterialSkin.Controls.MaterialTextBox2();
+            this.txtOpeningTime = new MaterialSkin.Controls.MaterialTextBox2();
+            this.txtAddress = new MaterialSkin.Controls.MaterialTextBox2();
             ((System.ComponentModel.ISupportInitialize)(this.pbClose)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRestaurantImage)).BeginInit();
             this.SuspendLayout();
             // 
-            // materialTextBox21
+            // txtRestaurantName
             // 
-            this.materialTextBox21.AnimateReadOnly = false;
-            this.materialTextBox21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.materialTextBox21.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.materialTextBox21.Depth = 0;
-            this.materialTextBox21.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox21.HideSelection = true;
-            this.materialTextBox21.Hint = "Name";
-            this.materialTextBox21.LeadingIcon = null;
-            this.materialTextBox21.Location = new System.Drawing.Point(301, 112);
-            this.materialTextBox21.MaxLength = 32767;
-            this.materialTextBox21.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox21.Name = "materialTextBox21";
-            this.materialTextBox21.PasswordChar = '\0';
-            this.materialTextBox21.PrefixSuffixText = null;
-            this.materialTextBox21.ReadOnly = false;
-            this.materialTextBox21.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.materialTextBox21.SelectedText = "";
-            this.materialTextBox21.SelectionLength = 0;
-            this.materialTextBox21.SelectionStart = 0;
-            this.materialTextBox21.ShortcutsEnabled = true;
-            this.materialTextBox21.Size = new System.Drawing.Size(224, 48);
-            this.materialTextBox21.TabIndex = 1;
-            this.materialTextBox21.TabStop = false;
-            this.materialTextBox21.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.materialTextBox21.TrailingIcon = null;
-            this.materialTextBox21.UseSystemPasswordChar = false;
+            this.txtRestaurantName.AnimateReadOnly = false;
+            this.txtRestaurantName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtRestaurantName.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtRestaurantName.Depth = 0;
+            this.txtRestaurantName.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtRestaurantName.HideSelection = true;
+            this.txtRestaurantName.Hint = "Name";
+            this.txtRestaurantName.LeadingIcon = null;
+            this.txtRestaurantName.Location = new System.Drawing.Point(301, 112);
+            this.txtRestaurantName.MaxLength = 32767;
+            this.txtRestaurantName.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtRestaurantName.Name = "txtRestaurantName";
+            this.txtRestaurantName.PasswordChar = '\0';
+            this.txtRestaurantName.PrefixSuffixText = null;
+            this.txtRestaurantName.ReadOnly = false;
+            this.txtRestaurantName.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtRestaurantName.SelectedText = "";
+            this.txtRestaurantName.SelectionLength = 0;
+            this.txtRestaurantName.SelectionStart = 0;
+            this.txtRestaurantName.ShortcutsEnabled = true;
+            this.txtRestaurantName.Size = new System.Drawing.Size(224, 48);
+            this.txtRestaurantName.TabIndex = 1;
+            this.txtRestaurantName.TabStop = false;
+            this.txtRestaurantName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtRestaurantName.TrailingIcon = null;
+            this.txtRestaurantName.UseSystemPasswordChar = false;
             // 
-            // materialTextBox23
+            // txtPhoneNumber
             // 
-            this.materialTextBox23.AnimateReadOnly = false;
-            this.materialTextBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.materialTextBox23.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.materialTextBox23.Depth = 0;
-            this.materialTextBox23.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox23.HideSelection = true;
-            this.materialTextBox23.Hint = "Phone Number";
-            this.materialTextBox23.LeadingIcon = null;
-            this.materialTextBox23.Location = new System.Drawing.Point(301, 242);
-            this.materialTextBox23.MaxLength = 32767;
-            this.materialTextBox23.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox23.Name = "materialTextBox23";
-            this.materialTextBox23.PasswordChar = '\0';
-            this.materialTextBox23.PrefixSuffixText = null;
-            this.materialTextBox23.ReadOnly = false;
-            this.materialTextBox23.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.materialTextBox23.SelectedText = "";
-            this.materialTextBox23.SelectionLength = 0;
-            this.materialTextBox23.SelectionStart = 0;
-            this.materialTextBox23.ShortcutsEnabled = true;
-            this.materialTextBox23.Size = new System.Drawing.Size(224, 48);
-            this.materialTextBox23.TabIndex = 3;
-            this.materialTextBox23.TabStop = false;
-            this.materialTextBox23.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.materialTextBox23.TrailingIcon = null;
-            this.materialTextBox23.UseSystemPasswordChar = false;
+            this.txtPhoneNumber.AnimateReadOnly = false;
+            this.txtPhoneNumber.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtPhoneNumber.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtPhoneNumber.Depth = 0;
+            this.txtPhoneNumber.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtPhoneNumber.HideSelection = true;
+            this.txtPhoneNumber.Hint = "Phone Number";
+            this.txtPhoneNumber.LeadingIcon = null;
+            this.txtPhoneNumber.Location = new System.Drawing.Point(301, 242);
+            this.txtPhoneNumber.MaxLength = 32767;
+            this.txtPhoneNumber.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtPhoneNumber.Name = "txtPhoneNumber";
+            this.txtPhoneNumber.PasswordChar = '\0';
+            this.txtPhoneNumber.PrefixSuffixText = null;
+            this.txtPhoneNumber.ReadOnly = false;
+            this.txtPhoneNumber.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtPhoneNumber.SelectedText = "";
+            this.txtPhoneNumber.SelectionLength = 0;
+            this.txtPhoneNumber.SelectionStart = 0;
+            this.txtPhoneNumber.ShortcutsEnabled = true;
+            this.txtPhoneNumber.Size = new System.Drawing.Size(224, 48);
+            this.txtPhoneNumber.TabIndex = 3;
+            this.txtPhoneNumber.TabStop = false;
+            this.txtPhoneNumber.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtPhoneNumber.TrailingIcon = null;
+            this.txtPhoneNumber.UseSystemPasswordChar = false;
             // 
             // materialCheckbox1
             // 
@@ -205,57 +205,57 @@
             this.materialDivider2.TabIndex = 16;
             this.materialDivider2.Text = "materialDivider2";
             // 
-            // btnLogIn
+            // btnSave
             // 
-            this.btnLogIn.Location = new System.Drawing.Point(879, 312);
-            this.btnLogIn.Name = "btnLogIn";
-            this.btnLogIn.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.btnSave.Location = new System.Drawing.Point(879, 312);
+            this.btnSave.Name = "btnSave";
+            this.btnSave.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.OverrideDefault.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.OverrideDefault.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.OverrideDefault.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnLogIn.OverrideDefault.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.btnLogIn.OverrideDefault.Border.Rounding = 20;
-            this.btnLogIn.OverrideDefault.Border.Width = 1;
-            this.btnLogIn.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
-            this.btnLogIn.Size = new System.Drawing.Size(155, 43);
-            this.btnLogIn.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.btnSave.OverrideDefault.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnSave.OverrideDefault.Border.Rounding = 20;
+            this.btnSave.OverrideDefault.Border.Width = 1;
+            this.btnSave.PaletteMode = ComponentFactory.Krypton.Toolkit.PaletteMode.ProfessionalSystem;
+            this.btnSave.Size = new System.Drawing.Size(155, 43);
+            this.btnSave.StateCommon.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StateCommon.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StateCommon.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StateCommon.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StateCommon.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnLogIn.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.btnLogIn.StateCommon.Border.Rounding = 20;
-            this.btnLogIn.StateCommon.Border.Width = 1;
-            this.btnLogIn.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
-            this.btnLogIn.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
-            this.btnLogIn.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnLogIn.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StatePressed.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.btnSave.StateCommon.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnSave.StateCommon.Border.Rounding = 20;
+            this.btnSave.StateCommon.Border.Width = 1;
+            this.btnSave.StateCommon.Content.ShortText.Color1 = System.Drawing.Color.White;
+            this.btnSave.StateCommon.Content.ShortText.Color2 = System.Drawing.Color.White;
+            this.btnSave.StateCommon.Content.ShortText.Font = new System.Drawing.Font("Poppins Medium", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnSave.StatePressed.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StatePressed.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StatePressed.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StatePressed.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StatePressed.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnLogIn.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.btnLogIn.StatePressed.Border.Rounding = 20;
-            this.btnLogIn.StatePressed.Border.Width = 1;
-            this.btnLogIn.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
-            this.btnLogIn.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
+            this.btnSave.StatePressed.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnSave.StatePressed.Border.Rounding = 20;
+            this.btnSave.StatePressed.Border.Width = 1;
+            this.btnSave.StateTracking.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StateTracking.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StateTracking.Border.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StateTracking.Border.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
+            this.btnSave.StateTracking.Border.DrawBorders = ((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders)((((ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Top | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Bottom) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Left) 
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
-            this.btnLogIn.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
-            this.btnLogIn.StateTracking.Border.Rounding = 20;
-            this.btnLogIn.StateTracking.Border.Width = 1;
-            this.btnLogIn.TabIndex = 25;
-            this.btnLogIn.Values.Text = "Save";
+            this.btnSave.StateTracking.Border.GraphicsHint = ComponentFactory.Krypton.Toolkit.PaletteGraphicsHint.AntiAlias;
+            this.btnSave.StateTracking.Border.Rounding = 20;
+            this.btnSave.StateTracking.Border.Width = 1;
+            this.btnSave.TabIndex = 25;
+            this.btnSave.Values.Text = "Save";
             // 
             // label1
             // 
@@ -327,92 +327,92 @@
             this.materialLabel7.TabIndex = 42;
             this.materialLabel7.Text = "Working Hours";
             // 
-            // materialTextBox26
+            // txtClosingTime
             // 
-            this.materialTextBox26.AnimateReadOnly = false;
-            this.materialTextBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.materialTextBox26.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.materialTextBox26.Depth = 0;
-            this.materialTextBox26.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox26.HideSelection = true;
-            this.materialTextBox26.Hint = "Closing Time";
-            this.materialTextBox26.LeadingIcon = null;
-            this.materialTextBox26.Location = new System.Drawing.Point(611, 177);
-            this.materialTextBox26.MaxLength = 32767;
-            this.materialTextBox26.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox26.Name = "materialTextBox26";
-            this.materialTextBox26.PasswordChar = '\0';
-            this.materialTextBox26.PrefixSuffixText = null;
-            this.materialTextBox26.ReadOnly = false;
-            this.materialTextBox26.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.materialTextBox26.SelectedText = "";
-            this.materialTextBox26.SelectionLength = 0;
-            this.materialTextBox26.SelectionStart = 0;
-            this.materialTextBox26.ShortcutsEnabled = true;
-            this.materialTextBox26.Size = new System.Drawing.Size(130, 48);
-            this.materialTextBox26.TabIndex = 41;
-            this.materialTextBox26.TabStop = false;
-            this.materialTextBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.materialTextBox26.TrailingIcon = null;
-            this.materialTextBox26.UseSystemPasswordChar = false;
+            this.txtClosingTime.AnimateReadOnly = false;
+            this.txtClosingTime.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtClosingTime.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtClosingTime.Depth = 0;
+            this.txtClosingTime.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtClosingTime.HideSelection = true;
+            this.txtClosingTime.Hint = "Closing Time";
+            this.txtClosingTime.LeadingIcon = null;
+            this.txtClosingTime.Location = new System.Drawing.Point(611, 177);
+            this.txtClosingTime.MaxLength = 32767;
+            this.txtClosingTime.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtClosingTime.Name = "txtClosingTime";
+            this.txtClosingTime.PasswordChar = '\0';
+            this.txtClosingTime.PrefixSuffixText = null;
+            this.txtClosingTime.ReadOnly = false;
+            this.txtClosingTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtClosingTime.SelectedText = "";
+            this.txtClosingTime.SelectionLength = 0;
+            this.txtClosingTime.SelectionStart = 0;
+            this.txtClosingTime.ShortcutsEnabled = true;
+            this.txtClosingTime.Size = new System.Drawing.Size(130, 48);
+            this.txtClosingTime.TabIndex = 41;
+            this.txtClosingTime.TabStop = false;
+            this.txtClosingTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtClosingTime.TrailingIcon = null;
+            this.txtClosingTime.UseSystemPasswordChar = false;
             // 
-            // materialTextBox27
+            // txtOpeningTime
             // 
-            this.materialTextBox27.AnimateReadOnly = false;
-            this.materialTextBox27.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.materialTextBox27.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.materialTextBox27.Depth = 0;
-            this.materialTextBox27.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox27.HideSelection = true;
-            this.materialTextBox27.Hint = "Opening Time";
-            this.materialTextBox27.LeadingIcon = null;
-            this.materialTextBox27.Location = new System.Drawing.Point(611, 112);
-            this.materialTextBox27.MaxLength = 32767;
-            this.materialTextBox27.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox27.Name = "materialTextBox27";
-            this.materialTextBox27.PasswordChar = '\0';
-            this.materialTextBox27.PrefixSuffixText = null;
-            this.materialTextBox27.ReadOnly = false;
-            this.materialTextBox27.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.materialTextBox27.SelectedText = "";
-            this.materialTextBox27.SelectionLength = 0;
-            this.materialTextBox27.SelectionStart = 0;
-            this.materialTextBox27.ShortcutsEnabled = true;
-            this.materialTextBox27.Size = new System.Drawing.Size(130, 48);
-            this.materialTextBox27.TabIndex = 40;
-            this.materialTextBox27.TabStop = false;
-            this.materialTextBox27.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.materialTextBox27.TrailingIcon = null;
-            this.materialTextBox27.UseSystemPasswordChar = false;
+            this.txtOpeningTime.AnimateReadOnly = false;
+            this.txtOpeningTime.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtOpeningTime.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtOpeningTime.Depth = 0;
+            this.txtOpeningTime.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtOpeningTime.HideSelection = true;
+            this.txtOpeningTime.Hint = "Opening Time";
+            this.txtOpeningTime.LeadingIcon = null;
+            this.txtOpeningTime.Location = new System.Drawing.Point(611, 112);
+            this.txtOpeningTime.MaxLength = 32767;
+            this.txtOpeningTime.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtOpeningTime.Name = "txtOpeningTime";
+            this.txtOpeningTime.PasswordChar = '\0';
+            this.txtOpeningTime.PrefixSuffixText = null;
+            this.txtOpeningTime.ReadOnly = false;
+            this.txtOpeningTime.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtOpeningTime.SelectedText = "";
+            this.txtOpeningTime.SelectionLength = 0;
+            this.txtOpeningTime.SelectionStart = 0;
+            this.txtOpeningTime.ShortcutsEnabled = true;
+            this.txtOpeningTime.Size = new System.Drawing.Size(130, 48);
+            this.txtOpeningTime.TabIndex = 40;
+            this.txtOpeningTime.TabStop = false;
+            this.txtOpeningTime.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtOpeningTime.TrailingIcon = null;
+            this.txtOpeningTime.UseSystemPasswordChar = false;
             // 
-            // materialTextBox22
+            // txtAddress
             // 
-            this.materialTextBox22.AnimateReadOnly = false;
-            this.materialTextBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.materialTextBox22.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.materialTextBox22.Depth = 0;
-            this.materialTextBox22.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialTextBox22.HideSelection = true;
-            this.materialTextBox22.Hint = "Address";
-            this.materialTextBox22.LeadingIcon = null;
-            this.materialTextBox22.Location = new System.Drawing.Point(301, 177);
-            this.materialTextBox22.MaxLength = 32767;
-            this.materialTextBox22.MouseState = MaterialSkin.MouseState.OUT;
-            this.materialTextBox22.Name = "materialTextBox22";
-            this.materialTextBox22.PasswordChar = '\0';
-            this.materialTextBox22.PrefixSuffixText = null;
-            this.materialTextBox22.ReadOnly = false;
-            this.materialTextBox22.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.materialTextBox22.SelectedText = "";
-            this.materialTextBox22.SelectionLength = 0;
-            this.materialTextBox22.SelectionStart = 0;
-            this.materialTextBox22.ShortcutsEnabled = true;
-            this.materialTextBox22.Size = new System.Drawing.Size(224, 48);
-            this.materialTextBox22.TabIndex = 45;
-            this.materialTextBox22.TabStop = false;
-            this.materialTextBox22.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.materialTextBox22.TrailingIcon = null;
-            this.materialTextBox22.UseSystemPasswordChar = false;
+            this.txtAddress.AnimateReadOnly = false;
+            this.txtAddress.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.txtAddress.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
+            this.txtAddress.Depth = 0;
+            this.txtAddress.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.txtAddress.HideSelection = true;
+            this.txtAddress.Hint = "Address";
+            this.txtAddress.LeadingIcon = null;
+            this.txtAddress.Location = new System.Drawing.Point(301, 177);
+            this.txtAddress.MaxLength = 32767;
+            this.txtAddress.MouseState = MaterialSkin.MouseState.OUT;
+            this.txtAddress.Name = "txtAddress";
+            this.txtAddress.PasswordChar = '\0';
+            this.txtAddress.PrefixSuffixText = null;
+            this.txtAddress.ReadOnly = false;
+            this.txtAddress.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.txtAddress.SelectedText = "";
+            this.txtAddress.SelectionLength = 0;
+            this.txtAddress.SelectionStart = 0;
+            this.txtAddress.ShortcutsEnabled = true;
+            this.txtAddress.Size = new System.Drawing.Size(224, 48);
+            this.txtAddress.TabIndex = 45;
+            this.txtAddress.TabStop = false;
+            this.txtAddress.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.txtAddress.TrailingIcon = null;
+            this.txtAddress.UseSystemPasswordChar = false;
             // 
             // AddRestaurantForm
             // 
@@ -420,14 +420,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1080, 367);
-            this.Controls.Add(this.materialTextBox22);
+            this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.materialLabel5);
             this.Controls.Add(this.materialLabel6);
             this.Controls.Add(this.materialLabel7);
-            this.Controls.Add(this.materialTextBox26);
-            this.Controls.Add(this.materialTextBox27);
+            this.Controls.Add(this.txtClosingTime);
+            this.Controls.Add(this.txtOpeningTime);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.btnLogIn);
+            this.Controls.Add(this.btnSave);
             this.Controls.Add(this.pbClose);
             this.Controls.Add(this.materialDivider2);
             this.Controls.Add(this.materialDivider1);
@@ -437,8 +437,8 @@
             this.Controls.Add(this.materialCheckbox2);
             this.Controls.Add(this.materialCheckbox3);
             this.Controls.Add(this.materialLabel1);
-            this.Controls.Add(this.materialTextBox23);
-            this.Controls.Add(this.materialTextBox21);
+            this.Controls.Add(this.txtPhoneNumber);
+            this.Controls.Add(this.txtRestaurantName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddRestaurantForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -456,8 +456,8 @@
 
         #endregion
 
-        private MaterialSkin.Controls.MaterialTextBox2 materialTextBox21;
-        private MaterialSkin.Controls.MaterialTextBox2 materialTextBox23;
+        private MaterialSkin.Controls.MaterialTextBox2 txtRestaurantName;
+        private MaterialSkin.Controls.MaterialTextBox2 txtPhoneNumber;
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox1;
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox2;
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox3;
@@ -467,13 +467,13 @@
         private MaterialSkin.Controls.MaterialDivider materialDivider1;
         private MaterialSkin.Controls.MaterialDivider materialDivider2;
         private System.Windows.Forms.PictureBox pbClose;
-        private ComponentFactory.Krypton.Toolkit.KryptonButton btnLogIn;
+        private ComponentFactory.Krypton.Toolkit.KryptonButton btnSave;
         private System.Windows.Forms.Label label1;
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
         private MaterialSkin.Controls.MaterialLabel materialLabel7;
-        private MaterialSkin.Controls.MaterialTextBox2 materialTextBox26;
-        private MaterialSkin.Controls.MaterialTextBox2 materialTextBox27;
-        private MaterialSkin.Controls.MaterialTextBox2 materialTextBox22;
+        private MaterialSkin.Controls.MaterialTextBox2 txtClosingTime;
+        private MaterialSkin.Controls.MaterialTextBox2 txtOpeningTime;
+        private MaterialSkin.Controls.MaterialTextBox2 txtAddress;
     }
 }

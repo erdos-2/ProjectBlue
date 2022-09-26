@@ -4,7 +4,6 @@ C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ProjectBlue.pdb
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\MaterialSkin.dll
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.AssemblyReference.cache
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.SuggestedBindingRedirects.cache
-C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.MainForm.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.Properties.Resources.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.GenerateResource.cache
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.csproj.CoreCompileInputs.cache
@@ -29,3 +28,13 @@ C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Kryp
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\bin\Debug\ComponentFactory.Krypton.Workspace.pdb
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.AddRestaurantForm.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.AddOfferingForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.ManagerMainForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.RestaurantCardImage.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.RestaurantCardNoImage.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.ViewAddedItemsForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingDetailsForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.RestaurantDetailsForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.CustomerMainForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.AddItemsForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.ManagerAccountForm.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.MenuItemCard.resources

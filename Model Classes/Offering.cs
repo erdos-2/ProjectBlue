@@ -16,6 +16,9 @@ namespace ProjectBlue.Model_Classes
         public Restaurant Restaurant { get; set; }
         public int EWT { get; set; } // EWT - Estimated Waiting Time (dine-in & takeaway)
         public int ETA { get; set; } // ETA - Estimated Time of Arrival (delivery)
+        public string MealOfTheDay { get; set; }
+        public string CourseOfMeal { get; set; }
+        public string Cuisine { get; set; }
 
     }
 }

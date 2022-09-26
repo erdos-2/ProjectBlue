@@ -30,5 +30,10 @@ namespace ProjectBlue
             signupForm1.ShowDialog();
             Close();
         }
+
+        private void pbClose_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }

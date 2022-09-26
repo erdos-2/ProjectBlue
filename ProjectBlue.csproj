@@ -65,6 +65,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddItemsForm.Designer.cs">
+      <DependentUpon>AddItemsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="AddOfferingForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,11 +89,29 @@
     <Compile Include="LoginForm.Designer.cs">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="MainForm.cs">
+    <Compile Include="CustomerMainForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="MainForm.Designer.cs">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <Compile Include="CustomerMainForm.Designer.cs">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerAccountForm.Designer.cs">
+      <DependentUpon>ManagerAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ManagerMainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ManagerMainForm.Designer.cs">
+      <DependentUpon>ManagerMainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MenuItemCard.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MenuItemCard.Designer.cs">
+      <DependentUpon>MenuItemCard.cs</DependentUpon>
     </Compile>
     <Compile Include="Model Classes\Offering.cs" />
     <Compile Include="Model Classes\Restaurant.cs" />
@@ -116,14 +140,47 @@
     <Compile Include="OfferingCardSmall.Designer.cs">
       <DependentUpon>OfferingCardSmall.cs</DependentUpon>
     </Compile>
+    <Compile Include="OfferingDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OfferingDetailsForm.Designer.cs">
+      <DependentUpon>OfferingDetailsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RestaurantCardImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RestaurantCardImage.Designer.cs">
+      <DependentUpon>RestaurantCardImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantCardNoImage.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="RestaurantCardNoImage.Designer.cs">
+      <DependentUpon>RestaurantCardNoImage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RestaurantDetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RestaurantDetailsForm.Designer.cs">
+      <DependentUpon>RestaurantDetailsForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="SignupForm.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SignupForm.Designer.cs">
       <DependentUpon>SignupForm.cs</DependentUpon>
     </Compile>
+    <Compile Include="ViewAddedItemsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewAddedItemsForm.Designer.cs">
+      <DependentUpon>ViewAddedItemsForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddItemsForm.resx">
+      <DependentUpon>AddItemsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="AddOfferingForm.resx">
       <DependentUpon>AddOfferingForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -133,8 +190,17 @@
     <EmbeddedResource Include="LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="MainForm.resx">
-      <DependentUpon>MainForm.cs</DependentUpon>
+    <EmbeddedResource Include="CustomerMainForm.resx">
+      <DependentUpon>CustomerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerAccountForm.resx">
+      <DependentUpon>ManagerAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ManagerMainForm.resx">
+      <DependentUpon>ManagerMainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MenuItemCard.resx">
+      <DependentUpon>MenuItemCard.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfferingCardFav.resx">
       <DependentUpon>OfferingCardFav.cs</DependentUpon>
@@ -148,6 +214,9 @@
     <EmbeddedResource Include="OfferingCardSmall.resx">
       <DependentUpon>OfferingCardSmall.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="OfferingDetailsForm.resx">
+      <DependentUpon>OfferingDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -158,8 +227,20 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="RestaurantCardImage.resx">
+      <DependentUpon>RestaurantCardImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaurantCardNoImage.resx">
+      <DependentUpon>RestaurantCardNoImage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RestaurantDetailsForm.resx">
+      <DependentUpon>RestaurantDetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SignupForm.resx">
       <DependentUpon>SignupForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewAddedItemsForm.resx">
+      <DependentUpon>ViewAddedItemsForm.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -183,6 +264,27 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\round_close_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\round_place_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\round_phone_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\round_restaurant_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\round_restaurant_menu_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\round_schedule_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\round_edit_black_24dp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\round_view_list_white_24dp.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

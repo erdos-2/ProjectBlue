@@ -32,7 +32,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
+            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.materialDivider2 = new MaterialSkin.Controls.MaterialDivider();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
@@ -40,19 +49,14 @@
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.pbClose = new System.Windows.Forms.PictureBox();
-            this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
+            this.lblCancel = new MaterialSkin.Controls.MaterialLabel();
+            this.lblSave = new MaterialSkin.Controls.MaterialLabel();
+            this.pbEdit = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEdit)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -93,6 +97,66 @@
             this.panel2.Size = new System.Drawing.Size(341, 200);
             this.panel2.TabIndex = 11;
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Roboto", 13F);
+            this.label5.Location = new System.Drawing.Point(194, 148);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(87, 22);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "American";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Roboto", 13F);
+            this.label6.Location = new System.Drawing.Point(194, 91);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(62, 22);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Entrée";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Roboto", 13F);
+            this.label7.Location = new System.Drawing.Point(194, 34);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(59, 22);
+            this.label7.TabIndex = 3;
+            this.label7.Text = "Lunch";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Roboto", 14F);
+            this.label4.Location = new System.Drawing.Point(104, 148);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(77, 23);
+            this.label4.TabIndex = 2;
+            this.label4.Text = "Cuisine:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Roboto", 14F);
+            this.label3.Location = new System.Drawing.Point(37, 91);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(144, 23);
+            this.label3.TabIndex = 1;
+            this.label3.Text = "Course of Meal:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Roboto", 14F);
+            this.label2.Location = new System.Drawing.Point(34, 34);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(147, 23);
+            this.label2.TabIndex = 0;
+            this.label2.Text = "Meal of the Day:";
+            // 
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.White;
@@ -111,6 +175,42 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(573, 200);
             this.panel1.TabIndex = 14;
+            // 
+            // materialLabel9
+            // 
+            this.materialLabel9.AutoSize = true;
+            this.materialLabel9.Depth = 0;
+            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel9.Location = new System.Drawing.Point(355, 139);
+            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel9.Name = "materialLabel9";
+            this.materialLabel9.Size = new System.Drawing.Size(50, 19);
+            this.materialLabel9.TabIndex = 9;
+            this.materialLabel9.Text = "24 min";
+            // 
+            // materialLabel10
+            // 
+            this.materialLabel10.AutoSize = true;
+            this.materialLabel10.Depth = 0;
+            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel10.Location = new System.Drawing.Point(355, 88);
+            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel10.Name = "materialLabel10";
+            this.materialLabel10.Size = new System.Drawing.Size(50, 19);
+            this.materialLabel10.TabIndex = 8;
+            this.materialLabel10.Text = "30 min";
+            // 
+            // materialLabel8
+            // 
+            this.materialLabel8.AutoSize = true;
+            this.materialLabel8.Depth = 0;
+            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel8.Location = new System.Drawing.Point(311, 139);
+            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel8.Name = "materialLabel8";
+            this.materialLabel8.Size = new System.Drawing.Size(34, 19);
+            this.materialLabel8.TabIndex = 7;
+            this.materialLabel8.Text = "ETA:";
             // 
             // materialDivider2
             // 
@@ -194,109 +294,51 @@
             this.pbClose.TabIndex = 44;
             this.pbClose.TabStop = false;
             // 
-            // materialLabel8
+            // lblCancel
             // 
-            this.materialLabel8.AutoSize = true;
-            this.materialLabel8.Depth = 0;
-            this.materialLabel8.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel8.Location = new System.Drawing.Point(311, 139);
-            this.materialLabel8.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel8.Name = "materialLabel8";
-            this.materialLabel8.Size = new System.Drawing.Size(34, 19);
-            this.materialLabel8.TabIndex = 7;
-            this.materialLabel8.Text = "ETA:";
+            this.lblCancel.AutoSize = true;
+            this.lblCancel.Depth = 0;
+            this.lblCancel.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblCancel.Location = new System.Drawing.Point(496, 519);
+            this.lblCancel.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblCancel.Name = "lblCancel";
+            this.lblCancel.Size = new System.Drawing.Size(49, 19);
+            this.lblCancel.TabIndex = 54;
+            this.lblCancel.Text = "Cancel";
             // 
-            // materialLabel9
+            // lblSave
             // 
-            this.materialLabel9.AutoSize = true;
-            this.materialLabel9.Depth = 0;
-            this.materialLabel9.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel9.Location = new System.Drawing.Point(355, 139);
-            this.materialLabel9.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel9.Name = "materialLabel9";
-            this.materialLabel9.Size = new System.Drawing.Size(50, 19);
-            this.materialLabel9.TabIndex = 9;
-            this.materialLabel9.Text = "24 min";
+            this.lblSave.AutoSize = true;
+            this.lblSave.Depth = 0;
+            this.lblSave.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblSave.ForeColor = System.Drawing.SystemColors.ControlText;
+            this.lblSave.Location = new System.Drawing.Point(573, 519);
+            this.lblSave.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblSave.Name = "lblSave";
+            this.lblSave.Size = new System.Drawing.Size(36, 19);
+            this.lblSave.TabIndex = 53;
+            this.lblSave.Text = "Save";
             // 
-            // materialLabel10
+            // pbEdit
             // 
-            this.materialLabel10.AutoSize = true;
-            this.materialLabel10.Depth = 0;
-            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel10.Location = new System.Drawing.Point(355, 88);
-            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel10.Name = "materialLabel10";
-            this.materialLabel10.Size = new System.Drawing.Size(50, 19);
-            this.materialLabel10.TabIndex = 8;
-            this.materialLabel10.Text = "30 min";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Roboto", 14F);
-            this.label2.Location = new System.Drawing.Point(34, 34);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(147, 23);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Meal of the Day:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Roboto", 14F);
-            this.label3.Location = new System.Drawing.Point(37, 91);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(144, 23);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "Course of Meal:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Roboto", 14F);
-            this.label4.Location = new System.Drawing.Point(104, 148);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(77, 23);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "Cuisine:";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Roboto", 13F);
-            this.label5.Location = new System.Drawing.Point(194, 148);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(87, 22);
-            this.label5.TabIndex = 5;
-            this.label5.Text = "American";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Roboto", 13F);
-            this.label6.Location = new System.Drawing.Point(194, 91);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(62, 22);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "Entrée";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Roboto", 13F);
-            this.label7.Location = new System.Drawing.Point(194, 34);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(59, 22);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "Lunch";
+            this.pbEdit.Image = global::ProjectBlue.Properties.Resources.round_edit_black_24dp;
+            this.pbEdit.Location = new System.Drawing.Point(585, 50);
+            this.pbEdit.Name = "pbEdit";
+            this.pbEdit.Size = new System.Drawing.Size(24, 24);
+            this.pbEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbEdit.TabIndex = 52;
+            this.pbEdit.TabStop = false;
             // 
             // OfferingDetailsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(653, 532);
+            this.ClientSize = new System.Drawing.Size(653, 554);
+            this.Controls.Add(this.lblCancel);
+            this.Controls.Add(this.lblSave);
             this.Controls.Add(this.pbClose);
             this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pbEdit);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.panel2);
@@ -314,6 +356,7 @@
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEdit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -341,5 +384,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
+        private MaterialSkin.Controls.MaterialLabel lblCancel;
+        private MaterialSkin.Controls.MaterialLabel lblSave;
+        private System.Windows.Forms.PictureBox pbEdit;
     }
 }

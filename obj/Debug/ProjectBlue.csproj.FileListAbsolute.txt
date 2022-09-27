@@ -38,3 +38,5 @@ C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.CustomerM
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.AddItemsForm.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.ManagerAccountForm.resources
 C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.MenuItemCard.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingDetailsCardLarge.resources
+C:\Users\Mirus\Documents\Source Code\ProjectBlue\obj\Debug\ProjectBlue.OfferingDetailsCardSmall.resources

@@ -140,6 +140,18 @@
     <Compile Include="OfferingCardSmall.Designer.cs">
       <DependentUpon>OfferingCardSmall.cs</DependentUpon>
     </Compile>
+    <Compile Include="OfferingDetailsCardLarge.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OfferingDetailsCardLarge.Designer.cs">
+      <DependentUpon>OfferingDetailsCardLarge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OfferingDetailsCardSmall.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OfferingDetailsCardSmall.Designer.cs">
+      <DependentUpon>OfferingDetailsCardSmall.cs</DependentUpon>
+    </Compile>
     <Compile Include="OfferingDetailsForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -213,6 +225,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="OfferingCardSmall.resx">
       <DependentUpon>OfferingCardSmall.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferingDetailsCardLarge.resx">
+      <DependentUpon>OfferingDetailsCardLarge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OfferingDetailsCardSmall.resx">
+      <DependentUpon>OfferingDetailsCardSmall.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfferingDetailsForm.resx">
       <DependentUpon>OfferingDetailsForm.cs</DependentUpon>

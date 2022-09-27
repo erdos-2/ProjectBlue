@@ -37,9 +37,6 @@ namespace ProjectBlue
         public OfferingCardSmall()
         {
             InitializeComponent();
-
-            lblOfferingName.Text = "Offering Name";
-            lblOfferingPrice.Text = "Offering Price";
         }
 
         public OfferingCardSmall(Offering offering)

@@ -44,10 +44,6 @@ namespace ProjectBlue
         public OfferingCardMedium()
         {
             InitializeComponent();
-            
-            lblOfferingName.Text = "Offering Name";
-            lblOfferingPrice.Text = "Offering Price";
-            lblRestaurantName.Text = "Restaurant Name";
         }
 
         public OfferingCardMedium(Offering offering)

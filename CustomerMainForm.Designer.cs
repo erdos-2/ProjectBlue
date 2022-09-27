@@ -33,15 +33,9 @@
             this.materialTabControl1 = new MaterialSkin.Controls.MaterialTabControl();
             this.tbHome = new System.Windows.Forms.TabPage();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.offeringCardMedium4 = new ProjectBlue.OfferingCardMedium();
-            this.offeringCardMedium5 = new ProjectBlue.OfferingCardMedium();
-            this.offeringCardMedium6 = new ProjectBlue.OfferingCardMedium();
+            this.flpEthiopianCuisine = new System.Windows.Forms.FlowLayoutPanel();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.offeringCardMedium1 = new ProjectBlue.OfferingCardMedium();
-            this.offeringCardMedium2 = new ProjectBlue.OfferingCardMedium();
-            this.offeringCardMedium3 = new ProjectBlue.OfferingCardMedium();
+            this.flpMealOfTheDay = new System.Windows.Forms.FlowLayoutPanel();
             this.tbSearch = new System.Windows.Forms.TabPage();
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
             this.label2 = new System.Windows.Forms.Label();
@@ -64,51 +58,89 @@
             this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox2 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox1 = new MaterialSkin.Controls.MaterialCheckbox();
-            this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
-            this.offeringCardSmall1 = new ProjectBlue.OfferingCardSmall();
-            this.offeringCardSmall2 = new ProjectBlue.OfferingCardSmall();
+            this.flpSearchResults = new System.Windows.Forms.FlowLayoutPanel();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
             this.materialTextBox21 = new MaterialSkin.Controls.MaterialTextBox2();
             this.panel1 = new System.Windows.Forms.Panel();
             this.tbFavorites = new System.Windows.Forms.TabPage();
-            this.offeringCardFav4 = new ProjectBlue.OfferingCardFav();
-            this.offeringCardFav2 = new ProjectBlue.OfferingCardFav();
-            this.offeringCardFav1 = new ProjectBlue.OfferingCardFav();
             this.materialLabel3 = new MaterialSkin.Controls.MaterialLabel();
             this.tbOrders = new System.Windows.Forms.TabPage();
             this.materialLabel24 = new MaterialSkin.Controls.MaterialLabel();
-            this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
-            this.offeringCardLarge4 = new ProjectBlue.OfferingCardLarge();
-            this.offeringCardLarge1 = new ProjectBlue.OfferingCardLarge();
-            this.offeringCardLarge2 = new ProjectBlue.OfferingCardLarge();
+            this.flpCurrentOrders = new System.Windows.Forms.FlowLayoutPanel();
             this.tbAccount = new System.Windows.Forms.TabPage();
             this.btnLogIn = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.materialLabel4 = new MaterialSkin.Controls.MaterialLabel();
             this.materialCard4 = new MaterialSkin.Controls.MaterialCard();
-            this.materialLabel13 = new MaterialSkin.Controls.MaterialLabel();
+            this.lblEmailAddress = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel14 = new MaterialSkin.Controls.MaterialLabel();
             this.materialDivider3 = new MaterialSkin.Controls.MaterialDivider();
-            this.materialLabel10 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel11 = new MaterialSkin.Controls.MaterialLabel();
-            this.materialLabel12 = new MaterialSkin.Controls.MaterialLabel();
+            this.lblPhoneNumber = new MaterialSkin.Controls.MaterialLabel();
+            this.lblUsername = new MaterialSkin.Controls.MaterialLabel();
+            this.lblFullName = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel9 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel8 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.materialDivider2 = new MaterialSkin.Controls.MaterialDivider();
             this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
             this.ilTabIcons = new System.Windows.Forms.ImageList(this.components);
+            this.flpFavorites = new System.Windows.Forms.FlowLayoutPanel();
+            this.materialLabel17 = new MaterialSkin.Controls.MaterialLabel();
+            this.flpEntrees = new System.Windows.Forms.FlowLayoutPanel();
+            this.materialLabel18 = new MaterialSkin.Controls.MaterialLabel();
+            this.flpAppetizers = new System.Windows.Forms.FlowLayoutPanel();
+            this.materialLabel19 = new MaterialSkin.Controls.MaterialLabel();
+            this.flpAmericanCuisine = new System.Windows.Forms.FlowLayoutPanel();
+            this.materialLabel20 = new MaterialSkin.Controls.MaterialLabel();
+            this.flpDesserts = new System.Windows.Forms.FlowLayoutPanel();
+            this.materialLabel21 = new MaterialSkin.Controls.MaterialLabel();
+            this.flpChineseCuisine = new System.Windows.Forms.FlowLayoutPanel();
+            this.offeringCardMedium19 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium20 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium21 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium13 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium14 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium15 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium16 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium17 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium18 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium7 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium8 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium9 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium10 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium11 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium12 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium4 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium5 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium6 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium1 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium2 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardMedium3 = new ProjectBlue.OfferingCardMedium();
+            this.offeringCardSmall1 = new ProjectBlue.OfferingCardSmall();
+            this.offeringCardSmall2 = new ProjectBlue.OfferingCardSmall();
+            this.offeringCardFav4 = new ProjectBlue.OfferingCardFav();
+            this.offeringCardFav2 = new ProjectBlue.OfferingCardFav();
+            this.offeringCardFav1 = new ProjectBlue.OfferingCardFav();
+            this.offeringCardLarge4 = new ProjectBlue.OfferingCardLarge();
+            this.offeringCardLarge1 = new ProjectBlue.OfferingCardLarge();
+            this.offeringCardLarge2 = new ProjectBlue.OfferingCardLarge();
             this.materialTabControl1.SuspendLayout();
             this.tbHome.SuspendLayout();
-            this.flowLayoutPanel2.SuspendLayout();
-            this.flowLayoutPanel1.SuspendLayout();
+            this.flpEthiopianCuisine.SuspendLayout();
+            this.flpMealOfTheDay.SuspendLayout();
             this.tbSearch.SuspendLayout();
             this.materialCard1.SuspendLayout();
-            this.flowLayoutPanel4.SuspendLayout();
+            this.flpSearchResults.SuspendLayout();
             this.tbFavorites.SuspendLayout();
             this.tbOrders.SuspendLayout();
-            this.flowLayoutPanel5.SuspendLayout();
+            this.flpCurrentOrders.SuspendLayout();
             this.tbAccount.SuspendLayout();
             this.materialCard4.SuspendLayout();
+            this.flpFavorites.SuspendLayout();
+            this.flpEntrees.SuspendLayout();
+            this.flpAppetizers.SuspendLayout();
+            this.flpAmericanCuisine.SuspendLayout();
+            this.flpDesserts.SuspendLayout();
+            this.flpChineseCuisine.SuspendLayout();
             this.SuspendLayout();
             // 
             // materialTabControl1
@@ -133,10 +165,20 @@
             // 
             this.tbHome.AutoScroll = true;
             this.tbHome.BackColor = System.Drawing.Color.White;
+            this.tbHome.Controls.Add(this.materialLabel21);
+            this.tbHome.Controls.Add(this.flpChineseCuisine);
+            this.tbHome.Controls.Add(this.materialLabel19);
+            this.tbHome.Controls.Add(this.flpAmericanCuisine);
+            this.tbHome.Controls.Add(this.materialLabel20);
+            this.tbHome.Controls.Add(this.flpDesserts);
+            this.tbHome.Controls.Add(this.materialLabel17);
+            this.tbHome.Controls.Add(this.flpEntrees);
+            this.tbHome.Controls.Add(this.materialLabel18);
+            this.tbHome.Controls.Add(this.flpAppetizers);
             this.tbHome.Controls.Add(this.materialLabel6);
-            this.tbHome.Controls.Add(this.flowLayoutPanel2);
+            this.tbHome.Controls.Add(this.flpEthiopianCuisine);
             this.tbHome.Controls.Add(this.materialLabel5);
-            this.tbHome.Controls.Add(this.flowLayoutPanel1);
+            this.tbHome.Controls.Add(this.flpMealOfTheDay);
             this.tbHome.ImageKey = "home_FILL0_wght400_GRAD0_opsz48.png";
             this.tbHome.Location = new System.Drawing.Point(4, 39);
             this.tbHome.Name = "tbHome";
@@ -151,78 +193,24 @@
             this.materialLabel6.Depth = 0;
             this.materialLabel6.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel6.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel6.Location = new System.Drawing.Point(50, 295);
+            this.materialLabel6.Location = new System.Drawing.Point(50, 290);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
-            this.materialLabel6.Size = new System.Drawing.Size(156, 24);
+            this.materialLabel6.Size = new System.Drawing.Size(84, 24);
             this.materialLabel6.TabIndex = 4;
-            this.materialLabel6.Text = "Traditional Foods";
+            this.materialLabel6.Text = "Ethiopian";
             // 
-            // flowLayoutPanel2
+            // flpEthiopianCuisine
             // 
-            this.flowLayoutPanel2.AutoScroll = true;
-            this.flowLayoutPanel2.Controls.Add(this.offeringCardMedium4);
-            this.flowLayoutPanel2.Controls.Add(this.offeringCardMedium5);
-            this.flowLayoutPanel2.Controls.Add(this.offeringCardMedium6);
-            this.flowLayoutPanel2.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(50, 338);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(908, 178);
-            this.flowLayoutPanel2.TabIndex = 3;
-            // 
-            // offeringCardMedium4
-            // 
-            this.offeringCardMedium4.Location = new System.Drawing.Point(3, 3);
-            this.offeringCardMedium4.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
-            this.offeringCardMedium4.MaximumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium4.MinimumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium4.Name = "offeringCardMedium4";
-            this.offeringCardMedium4.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium4.OfferingImage")));
-            this.offeringCardMedium4.OfferingName = "Shiro";
-            this.offeringCardMedium4.OfferingPrice = new decimal(new int[] {
-            30,
-            0,
-            0,
-            0});
-            this.offeringCardMedium4.RestaurantName = "Genet Mother House";
-            this.offeringCardMedium4.Size = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium4.TabIndex = 0;
-            // 
-            // offeringCardMedium5
-            // 
-            this.offeringCardMedium5.Location = new System.Drawing.Point(395, 3);
-            this.offeringCardMedium5.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
-            this.offeringCardMedium5.MaximumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium5.MinimumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium5.Name = "offeringCardMedium5";
-            this.offeringCardMedium5.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium5.OfferingImage")));
-            this.offeringCardMedium5.OfferingName = "Magna";
-            this.offeringCardMedium5.OfferingPrice = new decimal(new int[] {
-            4250,
-            0,
-            0,
-            131072});
-            this.offeringCardMedium5.RestaurantName = "Pastry";
-            this.offeringCardMedium5.Size = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium5.TabIndex = 1;
-            // 
-            // offeringCardMedium6
-            // 
-            this.offeringCardMedium6.Location = new System.Drawing.Point(787, 3);
-            this.offeringCardMedium6.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
-            this.offeringCardMedium6.MaximumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium6.MinimumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium6.Name = "offeringCardMedium6";
-            this.offeringCardMedium6.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium6.OfferingImage")));
-            this.offeringCardMedium6.OfferingName = "Napoletana";
-            this.offeringCardMedium6.OfferingPrice = new decimal(new int[] {
-            73,
-            0,
-            0,
-            0});
-            this.offeringCardMedium6.RestaurantName = "The Food Boutique";
-            this.offeringCardMedium6.Size = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium6.TabIndex = 2;
+            this.flpEthiopianCuisine.AutoScroll = true;
+            this.flpEthiopianCuisine.Controls.Add(this.offeringCardMedium4);
+            this.flpEthiopianCuisine.Controls.Add(this.offeringCardMedium5);
+            this.flpEthiopianCuisine.Controls.Add(this.offeringCardMedium6);
+            this.flpEthiopianCuisine.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpEthiopianCuisine.Location = new System.Drawing.Point(40, 333);
+            this.flpEthiopianCuisine.Name = "flpEthiopianCuisine";
+            this.flpEthiopianCuisine.Size = new System.Drawing.Size(908, 178);
+            this.flpEthiopianCuisine.TabIndex = 3;
             // 
             // materialLabel5
             // 
@@ -230,85 +218,31 @@
             this.materialLabel5.Depth = 0;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel5.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel5.Location = new System.Drawing.Point(50, 50);
+            this.materialLabel5.Location = new System.Drawing.Point(50, 45);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             this.materialLabel5.Size = new System.Drawing.Size(142, 24);
             this.materialLabel5.TabIndex = 2;
             this.materialLabel5.Text = "Good Afternoon";
             // 
-            // flowLayoutPanel1
+            // flpMealOfTheDay
             // 
-            this.flowLayoutPanel1.AutoScroll = true;
-            this.flowLayoutPanel1.Controls.Add(this.offeringCardMedium1);
-            this.flowLayoutPanel1.Controls.Add(this.offeringCardMedium2);
-            this.flowLayoutPanel1.Controls.Add(this.offeringCardMedium3);
-            this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(50, 93);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(908, 178);
-            this.flowLayoutPanel1.TabIndex = 1;
-            // 
-            // offeringCardMedium1
-            // 
-            this.offeringCardMedium1.Location = new System.Drawing.Point(3, 3);
-            this.offeringCardMedium1.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
-            this.offeringCardMedium1.MaximumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium1.MinimumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium1.Name = "offeringCardMedium1";
-            this.offeringCardMedium1.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium1.OfferingImage")));
-            this.offeringCardMedium1.OfferingName = "Lasagna";
-            this.offeringCardMedium1.OfferingPrice = new decimal(new int[] {
-            75,
-            0,
-            0,
-            0});
-            this.offeringCardMedium1.RestaurantName = "Trattoria Gusto";
-            this.offeringCardMedium1.Size = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium1.TabIndex = 0;
-            // 
-            // offeringCardMedium2
-            // 
-            this.offeringCardMedium2.Location = new System.Drawing.Point(395, 3);
-            this.offeringCardMedium2.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
-            this.offeringCardMedium2.MaximumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium2.MinimumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium2.Name = "offeringCardMedium2";
-            this.offeringCardMedium2.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium2.OfferingImage")));
-            this.offeringCardMedium2.OfferingName = "Crispy Chicken";
-            this.offeringCardMedium2.OfferingPrice = new decimal(new int[] {
-            90,
-            0,
-            0,
-            0});
-            this.offeringCardMedium2.RestaurantName = "Sapore Restaurant";
-            this.offeringCardMedium2.Size = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium2.TabIndex = 1;
-            // 
-            // offeringCardMedium3
-            // 
-            this.offeringCardMedium3.Location = new System.Drawing.Point(787, 3);
-            this.offeringCardMedium3.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
-            this.offeringCardMedium3.MaximumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium3.MinimumSize = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium3.Name = "offeringCardMedium3";
-            this.offeringCardMedium3.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium3.OfferingImage")));
-            this.offeringCardMedium3.OfferingName = "Special Hummus";
-            this.offeringCardMedium3.OfferingPrice = new decimal(new int[] {
-            60,
-            0,
-            0,
-            0});
-            this.offeringCardMedium3.RestaurantName = "Atmosphere Restaurant";
-            this.offeringCardMedium3.Size = new System.Drawing.Size(380, 155);
-            this.offeringCardMedium3.TabIndex = 2;
+            this.flpMealOfTheDay.AutoScroll = true;
+            this.flpMealOfTheDay.Controls.Add(this.offeringCardMedium1);
+            this.flpMealOfTheDay.Controls.Add(this.offeringCardMedium2);
+            this.flpMealOfTheDay.Controls.Add(this.offeringCardMedium3);
+            this.flpMealOfTheDay.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpMealOfTheDay.Location = new System.Drawing.Point(40, 88);
+            this.flpMealOfTheDay.Name = "flpMealOfTheDay";
+            this.flpMealOfTheDay.Size = new System.Drawing.Size(908, 178);
+            this.flpMealOfTheDay.TabIndex = 1;
             // 
             // tbSearch
             // 
             this.tbSearch.AutoScroll = true;
             this.tbSearch.BackColor = System.Drawing.Color.White;
             this.tbSearch.Controls.Add(this.materialCard1);
-            this.tbSearch.Controls.Add(this.flowLayoutPanel4);
+            this.tbSearch.Controls.Add(this.flpSearchResults);
             this.tbSearch.Controls.Add(this.materialLabel1);
             this.tbSearch.Controls.Add(this.materialTextBox21);
             this.tbSearch.Controls.Add(this.panel1);
@@ -651,47 +585,15 @@
             this.materialCheckbox1.Text = "Breakfast";
             this.materialCheckbox1.UseVisualStyleBackColor = true;
             // 
-            // flowLayoutPanel4
+            // flpSearchResults
             // 
-            this.flowLayoutPanel4.AutoScroll = true;
-            this.flowLayoutPanel4.Controls.Add(this.offeringCardSmall1);
-            this.flowLayoutPanel4.Controls.Add(this.offeringCardSmall2);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(372, 149);
-            this.flowLayoutPanel4.Name = "flowLayoutPanel4";
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(550, 840);
-            this.flowLayoutPanel4.TabIndex = 15;
-            // 
-            // offeringCardSmall1
-            // 
-            this.offeringCardSmall1.Location = new System.Drawing.Point(3, 3);
-            this.offeringCardSmall1.MaximumSize = new System.Drawing.Size(510, 90);
-            this.offeringCardSmall1.MinimumSize = new System.Drawing.Size(510, 90);
-            this.offeringCardSmall1.Name = "offeringCardSmall1";
-            this.offeringCardSmall1.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardSmall1.OfferingImage")));
-            this.offeringCardSmall1.OfferingName = "Special Hummus";
-            this.offeringCardSmall1.OfferingPrice = new decimal(new int[] {
-            65,
-            0,
-            0,
-            0});
-            this.offeringCardSmall1.Size = new System.Drawing.Size(510, 90);
-            this.offeringCardSmall1.TabIndex = 11;
-            // 
-            // offeringCardSmall2
-            // 
-            this.offeringCardSmall2.Location = new System.Drawing.Point(3, 99);
-            this.offeringCardSmall2.MaximumSize = new System.Drawing.Size(510, 90);
-            this.offeringCardSmall2.MinimumSize = new System.Drawing.Size(510, 90);
-            this.offeringCardSmall2.Name = "offeringCardSmall2";
-            this.offeringCardSmall2.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardSmall2.OfferingImage")));
-            this.offeringCardSmall2.OfferingName = "Crispy Chicken";
-            this.offeringCardSmall2.OfferingPrice = new decimal(new int[] {
-            40,
-            0,
-            0,
-            0});
-            this.offeringCardSmall2.Size = new System.Drawing.Size(510, 90);
-            this.offeringCardSmall2.TabIndex = 12;
+            this.flpSearchResults.AutoScroll = true;
+            this.flpSearchResults.Controls.Add(this.offeringCardSmall1);
+            this.flpSearchResults.Controls.Add(this.offeringCardSmall2);
+            this.flpSearchResults.Location = new System.Drawing.Point(372, 149);
+            this.flpSearchResults.Name = "flpSearchResults";
+            this.flpSearchResults.Size = new System.Drawing.Size(550, 840);
+            this.flpSearchResults.TabIndex = 15;
             // 
             // materialLabel1
             // 
@@ -739,7 +641,7 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.panel1.Location = new System.Drawing.Point(3, 986);
+            this.panel1.Location = new System.Drawing.Point(3, 989);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1046, 41);
             this.panel1.TabIndex = 19;
@@ -747,9 +649,7 @@
             // tbFavorites
             // 
             this.tbFavorites.BackColor = System.Drawing.Color.White;
-            this.tbFavorites.Controls.Add(this.offeringCardFav4);
-            this.tbFavorites.Controls.Add(this.offeringCardFav2);
-            this.tbFavorites.Controls.Add(this.offeringCardFav1);
+            this.tbFavorites.Controls.Add(this.flpFavorites);
             this.tbFavorites.Controls.Add(this.materialLabel3);
             this.tbFavorites.ImageKey = "star_FILL0_wght400_GRAD0_opsz48.png";
             this.tbFavorites.Location = new System.Drawing.Point(4, 39);
@@ -758,48 +658,6 @@
             this.tbFavorites.Size = new System.Drawing.Size(1069, 541);
             this.tbFavorites.TabIndex = 2;
             this.tbFavorites.Text = "Favorites";
-            // 
-            // offeringCardFav4
-            // 
-            this.offeringCardFav4.Location = new System.Drawing.Point(40, 197);
-            this.offeringCardFav4.Name = "offeringCardFav4";
-            this.offeringCardFav4.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardFav4.OfferingImage")));
-            this.offeringCardFav4.OfferingName = "Lasagna";
-            this.offeringCardFav4.OfferingPrice = new decimal(new int[] {
-            130,
-            0,
-            0,
-            0});
-            this.offeringCardFav4.Size = new System.Drawing.Size(410, 91);
-            this.offeringCardFav4.TabIndex = 4;
-            // 
-            // offeringCardFav2
-            // 
-            this.offeringCardFav2.Location = new System.Drawing.Point(552, 75);
-            this.offeringCardFav2.Name = "offeringCardFav2";
-            this.offeringCardFav2.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardFav2.OfferingImage")));
-            this.offeringCardFav2.OfferingName = "Napoletana";
-            this.offeringCardFav2.OfferingPrice = new decimal(new int[] {
-            85,
-            0,
-            0,
-            0});
-            this.offeringCardFav2.Size = new System.Drawing.Size(410, 91);
-            this.offeringCardFav2.TabIndex = 3;
-            // 
-            // offeringCardFav1
-            // 
-            this.offeringCardFav1.Location = new System.Drawing.Point(40, 75);
-            this.offeringCardFav1.Name = "offeringCardFav1";
-            this.offeringCardFav1.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardFav1.OfferingImage")));
-            this.offeringCardFav1.OfferingName = "Special Hummus";
-            this.offeringCardFav1.OfferingPrice = new decimal(new int[] {
-            60,
-            0,
-            0,
-            0});
-            this.offeringCardFav1.Size = new System.Drawing.Size(410, 91);
-            this.offeringCardFav1.TabIndex = 2;
             // 
             // materialLabel3
             // 
@@ -818,7 +676,7 @@
             // 
             this.tbOrders.BackColor = System.Drawing.Color.White;
             this.tbOrders.Controls.Add(this.materialLabel24);
-            this.tbOrders.Controls.Add(this.flowLayoutPanel5);
+            this.tbOrders.Controls.Add(this.flpCurrentOrders);
             this.tbOrders.ImageKey = "list_alt_FILL0_wght400_GRAD0_opsz48.png";
             this.tbOrders.Location = new System.Drawing.Point(4, 39);
             this.tbOrders.Name = "tbOrders";
@@ -839,57 +697,15 @@
             this.materialLabel24.TabIndex = 6;
             this.materialLabel24.Text = "Current Orders";
             // 
-            // flowLayoutPanel5
+            // flpCurrentOrders
             // 
-            this.flowLayoutPanel5.Controls.Add(this.offeringCardLarge4);
-            this.flowLayoutPanel5.Controls.Add(this.offeringCardLarge1);
-            this.flowLayoutPanel5.Controls.Add(this.offeringCardLarge2);
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(40, 75);
-            this.flowLayoutPanel5.Name = "flowLayoutPanel5";
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(945, 352);
-            this.flowLayoutPanel5.TabIndex = 13;
-            // 
-            // offeringCardLarge4
-            // 
-            this.offeringCardLarge4.Location = new System.Drawing.Point(3, 3);
-            this.offeringCardLarge4.Margin = new System.Windows.Forms.Padding(3, 3, 15, 3);
-            this.offeringCardLarge4.MaximumSize = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge4.MinimumSize = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge4.Name = "offeringCardLarge4";
-            this.offeringCardLarge4.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardLarge4.OfferingImage")));
-            this.offeringCardLarge4.OfferingName = "Lasagna";
-            this.offeringCardLarge4.RestaurantName = "Trattoria Gusto";
-            this.offeringCardLarge4.Size = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge4.TabIndex = 10;
-            this.offeringCardLarge4.Time = "24:32";
-            // 
-            // offeringCardLarge1
-            // 
-            this.offeringCardLarge1.Location = new System.Drawing.Point(241, 3);
-            this.offeringCardLarge1.Margin = new System.Windows.Forms.Padding(3, 3, 15, 3);
-            this.offeringCardLarge1.MaximumSize = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge1.MinimumSize = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge1.Name = "offeringCardLarge1";
-            this.offeringCardLarge1.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardLarge1.OfferingImage")));
-            this.offeringCardLarge1.OfferingName = "Magna";
-            this.offeringCardLarge1.RestaurantName = "Pastry";
-            this.offeringCardLarge1.Size = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge1.TabIndex = 11;
-            this.offeringCardLarge1.Time = "09:37";
-            // 
-            // offeringCardLarge2
-            // 
-            this.offeringCardLarge2.Location = new System.Drawing.Point(479, 3);
-            this.offeringCardLarge2.Margin = new System.Windows.Forms.Padding(3, 3, 15, 3);
-            this.offeringCardLarge2.MaximumSize = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge2.MinimumSize = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge2.Name = "offeringCardLarge2";
-            this.offeringCardLarge2.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardLarge2.OfferingImage")));
-            this.offeringCardLarge2.OfferingName = "Crispy Chicken";
-            this.offeringCardLarge2.RestaurantName = "Sapore Restaurant";
-            this.offeringCardLarge2.Size = new System.Drawing.Size(220, 325);
-            this.offeringCardLarge2.TabIndex = 12;
-            this.offeringCardLarge2.Time = "40:13";
+            this.flpCurrentOrders.Controls.Add(this.offeringCardLarge4);
+            this.flpCurrentOrders.Controls.Add(this.offeringCardLarge1);
+            this.flpCurrentOrders.Controls.Add(this.offeringCardLarge2);
+            this.flpCurrentOrders.Location = new System.Drawing.Point(40, 75);
+            this.flpCurrentOrders.Name = "flpCurrentOrders";
+            this.flpCurrentOrders.Size = new System.Drawing.Size(945, 352);
+            this.flpCurrentOrders.TabIndex = 13;
             // 
             // tbAccount
             // 
@@ -972,12 +788,12 @@
             // materialCard4
             // 
             this.materialCard4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.materialCard4.Controls.Add(this.materialLabel13);
+            this.materialCard4.Controls.Add(this.lblEmailAddress);
             this.materialCard4.Controls.Add(this.materialLabel14);
             this.materialCard4.Controls.Add(this.materialDivider3);
-            this.materialCard4.Controls.Add(this.materialLabel10);
-            this.materialCard4.Controls.Add(this.materialLabel11);
-            this.materialCard4.Controls.Add(this.materialLabel12);
+            this.materialCard4.Controls.Add(this.lblPhoneNumber);
+            this.materialCard4.Controls.Add(this.lblUsername);
+            this.materialCard4.Controls.Add(this.lblFullName);
             this.materialCard4.Controls.Add(this.materialLabel9);
             this.materialCard4.Controls.Add(this.materialLabel8);
             this.materialCard4.Controls.Add(this.materialLabel7);
@@ -993,18 +809,18 @@
             this.materialCard4.Size = new System.Drawing.Size(505, 349);
             this.materialCard4.TabIndex = 0;
             // 
-            // materialLabel13
+            // lblEmailAddress
             // 
-            this.materialLabel13.AutoSize = true;
-            this.materialLabel13.Depth = 0;
-            this.materialLabel13.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel13.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
-            this.materialLabel13.Location = new System.Drawing.Point(324, 289);
-            this.materialLabel13.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel13.Name = "materialLabel13";
-            this.materialLabel13.Size = new System.Drawing.Size(138, 19);
-            this.materialLabel13.TabIndex = 10;
-            this.materialLabel13.Text = "dwight@gmail.com";
+            this.lblEmailAddress.AutoSize = true;
+            this.lblEmailAddress.Depth = 0;
+            this.lblEmailAddress.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblEmailAddress.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.lblEmailAddress.Location = new System.Drawing.Point(324, 289);
+            this.lblEmailAddress.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblEmailAddress.Name = "lblEmailAddress";
+            this.lblEmailAddress.Size = new System.Drawing.Size(138, 19);
+            this.lblEmailAddress.TabIndex = 10;
+            this.lblEmailAddress.Text = "dwight@gmail.com";
             // 
             // materialLabel14
             // 
@@ -1030,44 +846,44 @@
             this.materialDivider3.TabIndex = 8;
             this.materialDivider3.Text = "materialDivider3";
             // 
-            // materialLabel10
+            // lblPhoneNumber
             // 
-            this.materialLabel10.AutoSize = true;
-            this.materialLabel10.Depth = 0;
-            this.materialLabel10.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel10.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
-            this.materialLabel10.Location = new System.Drawing.Point(324, 202);
-            this.materialLabel10.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel10.Name = "materialLabel10";
-            this.materialLabel10.Size = new System.Drawing.Size(130, 19);
-            this.materialLabel10.TabIndex = 7;
-            this.materialLabel10.Text = "+251 98 765 4321";
+            this.lblPhoneNumber.AutoSize = true;
+            this.lblPhoneNumber.Depth = 0;
+            this.lblPhoneNumber.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblPhoneNumber.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.lblPhoneNumber.Location = new System.Drawing.Point(324, 202);
+            this.lblPhoneNumber.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblPhoneNumber.Name = "lblPhoneNumber";
+            this.lblPhoneNumber.Size = new System.Drawing.Size(130, 19);
+            this.lblPhoneNumber.TabIndex = 7;
+            this.lblPhoneNumber.Text = "+251 98 765 4321";
             // 
-            // materialLabel11
+            // lblUsername
             // 
-            this.materialLabel11.AutoSize = true;
-            this.materialLabel11.Depth = 0;
-            this.materialLabel11.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel11.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
-            this.materialLabel11.Location = new System.Drawing.Point(324, 113);
-            this.materialLabel11.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel11.Name = "materialLabel11";
-            this.materialLabel11.Size = new System.Drawing.Size(71, 19);
-            this.materialLabel11.TabIndex = 6;
-            this.materialLabel11.Text = "schrute42";
+            this.lblUsername.AutoSize = true;
+            this.lblUsername.Depth = 0;
+            this.lblUsername.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblUsername.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.lblUsername.Location = new System.Drawing.Point(324, 113);
+            this.lblUsername.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblUsername.Name = "lblUsername";
+            this.lblUsername.Size = new System.Drawing.Size(71, 19);
+            this.lblUsername.TabIndex = 6;
+            this.lblUsername.Text = "schrute42";
             // 
-            // materialLabel12
+            // lblFullName
             // 
-            this.materialLabel12.AutoSize = true;
-            this.materialLabel12.Depth = 0;
-            this.materialLabel12.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.materialLabel12.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
-            this.materialLabel12.Location = new System.Drawing.Point(324, 32);
-            this.materialLabel12.MouseState = MaterialSkin.MouseState.HOVER;
-            this.materialLabel12.Name = "materialLabel12";
-            this.materialLabel12.Size = new System.Drawing.Size(109, 19);
-            this.materialLabel12.TabIndex = 5;
-            this.materialLabel12.Text = "Dwight Schrute";
+            this.lblFullName.AutoSize = true;
+            this.lblFullName.Depth = 0;
+            this.lblFullName.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.lblFullName.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
+            this.lblFullName.Location = new System.Drawing.Point(324, 32);
+            this.lblFullName.MouseState = MaterialSkin.MouseState.HOVER;
+            this.lblFullName.Name = "lblFullName";
+            this.lblFullName.Size = new System.Drawing.Size(109, 19);
+            this.lblFullName.TabIndex = 5;
+            this.lblFullName.Text = "Dwight Schrute";
             // 
             // materialLabel9
             // 
@@ -1141,6 +957,638 @@
             this.ilTabIcons.Images.SetKeyName(4, "search_FILL0_wght400_GRAD0_opsz48.png");
             this.ilTabIcons.Images.SetKeyName(5, "star_FILL0_wght400_GRAD0_opsz48.png");
             // 
+            // flpFavorites
+            // 
+            this.flpFavorites.Controls.Add(this.offeringCardFav4);
+            this.flpFavorites.Controls.Add(this.offeringCardFav2);
+            this.flpFavorites.Controls.Add(this.offeringCardFav1);
+            this.flpFavorites.Location = new System.Drawing.Point(40, 75);
+            this.flpFavorites.Name = "flpFavorites";
+            this.flpFavorites.Size = new System.Drawing.Size(990, 435);
+            this.flpFavorites.TabIndex = 5;
+            // 
+            // materialLabel17
+            // 
+            this.materialLabel17.AutoSize = true;
+            this.materialLabel17.Depth = 0;
+            this.materialLabel17.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel17.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel17.Location = new System.Drawing.Point(49, 794);
+            this.materialLabel17.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel17.Name = "materialLabel17";
+            this.materialLabel17.Size = new System.Drawing.Size(69, 24);
+            this.materialLabel17.TabIndex = 8;
+            this.materialLabel17.Text = "Entrées";
+            // 
+            // flpEntrees
+            // 
+            this.flpEntrees.AutoScroll = true;
+            this.flpEntrees.Controls.Add(this.offeringCardMedium7);
+            this.flpEntrees.Controls.Add(this.offeringCardMedium8);
+            this.flpEntrees.Controls.Add(this.offeringCardMedium9);
+            this.flpEntrees.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpEntrees.Location = new System.Drawing.Point(39, 837);
+            this.flpEntrees.Name = "flpEntrees";
+            this.flpEntrees.Size = new System.Drawing.Size(908, 178);
+            this.flpEntrees.TabIndex = 7;
+            // 
+            // materialLabel18
+            // 
+            this.materialLabel18.AutoSize = true;
+            this.materialLabel18.Depth = 0;
+            this.materialLabel18.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel18.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel18.Location = new System.Drawing.Point(49, 549);
+            this.materialLabel18.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel18.Name = "materialLabel18";
+            this.materialLabel18.Size = new System.Drawing.Size(97, 24);
+            this.materialLabel18.TabIndex = 6;
+            this.materialLabel18.Text = "Appetizers";
+            // 
+            // flpAppetizers
+            // 
+            this.flpAppetizers.AutoScroll = true;
+            this.flpAppetizers.Controls.Add(this.offeringCardMedium10);
+            this.flpAppetizers.Controls.Add(this.offeringCardMedium11);
+            this.flpAppetizers.Controls.Add(this.offeringCardMedium12);
+            this.flpAppetizers.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpAppetizers.Location = new System.Drawing.Point(39, 592);
+            this.flpAppetizers.Name = "flpAppetizers";
+            this.flpAppetizers.Size = new System.Drawing.Size(908, 178);
+            this.flpAppetizers.TabIndex = 5;
+            // 
+            // materialLabel19
+            // 
+            this.materialLabel19.AutoSize = true;
+            this.materialLabel19.Depth = 0;
+            this.materialLabel19.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel19.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel19.Location = new System.Drawing.Point(45, 1299);
+            this.materialLabel19.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel19.Name = "materialLabel19";
+            this.materialLabel19.Size = new System.Drawing.Size(86, 24);
+            this.materialLabel19.TabIndex = 12;
+            this.materialLabel19.Text = "American";
+            // 
+            // flpAmericanCuisine
+            // 
+            this.flpAmericanCuisine.AutoScroll = true;
+            this.flpAmericanCuisine.Controls.Add(this.offeringCardMedium13);
+            this.flpAmericanCuisine.Controls.Add(this.offeringCardMedium14);
+            this.flpAmericanCuisine.Controls.Add(this.offeringCardMedium15);
+            this.flpAmericanCuisine.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpAmericanCuisine.Location = new System.Drawing.Point(35, 1342);
+            this.flpAmericanCuisine.Name = "flpAmericanCuisine";
+            this.flpAmericanCuisine.Size = new System.Drawing.Size(908, 178);
+            this.flpAmericanCuisine.TabIndex = 11;
+            // 
+            // materialLabel20
+            // 
+            this.materialLabel20.AutoSize = true;
+            this.materialLabel20.Depth = 0;
+            this.materialLabel20.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel20.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel20.Location = new System.Drawing.Point(45, 1054);
+            this.materialLabel20.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel20.Name = "materialLabel20";
+            this.materialLabel20.Size = new System.Drawing.Size(80, 24);
+            this.materialLabel20.TabIndex = 10;
+            this.materialLabel20.Text = "Desserts";
+            // 
+            // flpDesserts
+            // 
+            this.flpDesserts.AutoScroll = true;
+            this.flpDesserts.Controls.Add(this.offeringCardMedium16);
+            this.flpDesserts.Controls.Add(this.offeringCardMedium17);
+            this.flpDesserts.Controls.Add(this.offeringCardMedium18);
+            this.flpDesserts.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpDesserts.Location = new System.Drawing.Point(35, 1097);
+            this.flpDesserts.Name = "flpDesserts";
+            this.flpDesserts.Size = new System.Drawing.Size(908, 178);
+            this.flpDesserts.TabIndex = 9;
+            // 
+            // materialLabel21
+            // 
+            this.materialLabel21.AutoSize = true;
+            this.materialLabel21.Depth = 0;
+            this.materialLabel21.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
+            this.materialLabel21.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
+            this.materialLabel21.Location = new System.Drawing.Point(41, 1552);
+            this.materialLabel21.MouseState = MaterialSkin.MouseState.HOVER;
+            this.materialLabel21.Name = "materialLabel21";
+            this.materialLabel21.Size = new System.Drawing.Size(73, 24);
+            this.materialLabel21.TabIndex = 14;
+            this.materialLabel21.Text = "Chinese";
+            // 
+            // flpChineseCuisine
+            // 
+            this.flpChineseCuisine.AutoScroll = true;
+            this.flpChineseCuisine.Controls.Add(this.offeringCardMedium19);
+            this.flpChineseCuisine.Controls.Add(this.offeringCardMedium20);
+            this.flpChineseCuisine.Controls.Add(this.offeringCardMedium21);
+            this.flpChineseCuisine.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
+            this.flpChineseCuisine.Location = new System.Drawing.Point(31, 1595);
+            this.flpChineseCuisine.Name = "flpChineseCuisine";
+            this.flpChineseCuisine.Size = new System.Drawing.Size(908, 178);
+            this.flpChineseCuisine.TabIndex = 13;
+            // 
+            // offeringCardMedium19
+            // 
+            this.offeringCardMedium19.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardMedium19.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium19.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium19.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium19.Name = "offeringCardMedium19";
+            this.offeringCardMedium19.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium19.OfferingImage")));
+            this.offeringCardMedium19.OfferingName = "Shiro";
+            this.offeringCardMedium19.OfferingPrice = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.offeringCardMedium19.RestaurantName = "Genet Mother House";
+            this.offeringCardMedium19.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium19.TabIndex = 0;
+            // 
+            // offeringCardMedium20
+            // 
+            this.offeringCardMedium20.Location = new System.Drawing.Point(395, 3);
+            this.offeringCardMedium20.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium20.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium20.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium20.Name = "offeringCardMedium20";
+            this.offeringCardMedium20.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium20.OfferingImage")));
+            this.offeringCardMedium20.OfferingName = "Magna";
+            this.offeringCardMedium20.OfferingPrice = new decimal(new int[] {
+            4250,
+            0,
+            0,
+            131072});
+            this.offeringCardMedium20.RestaurantName = "Pastry";
+            this.offeringCardMedium20.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium20.TabIndex = 1;
+            // 
+            // offeringCardMedium21
+            // 
+            this.offeringCardMedium21.Location = new System.Drawing.Point(787, 3);
+            this.offeringCardMedium21.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium21.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium21.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium21.Name = "offeringCardMedium21";
+            this.offeringCardMedium21.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium21.OfferingImage")));
+            this.offeringCardMedium21.OfferingName = "Napoletana";
+            this.offeringCardMedium21.OfferingPrice = new decimal(new int[] {
+            73,
+            0,
+            0,
+            0});
+            this.offeringCardMedium21.RestaurantName = "The Food Boutique";
+            this.offeringCardMedium21.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium21.TabIndex = 2;
+            // 
+            // offeringCardMedium13
+            // 
+            this.offeringCardMedium13.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardMedium13.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium13.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium13.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium13.Name = "offeringCardMedium13";
+            this.offeringCardMedium13.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium13.OfferingImage")));
+            this.offeringCardMedium13.OfferingName = "Shiro";
+            this.offeringCardMedium13.OfferingPrice = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.offeringCardMedium13.RestaurantName = "Genet Mother House";
+            this.offeringCardMedium13.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium13.TabIndex = 0;
+            // 
+            // offeringCardMedium14
+            // 
+            this.offeringCardMedium14.Location = new System.Drawing.Point(395, 3);
+            this.offeringCardMedium14.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium14.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium14.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium14.Name = "offeringCardMedium14";
+            this.offeringCardMedium14.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium14.OfferingImage")));
+            this.offeringCardMedium14.OfferingName = "Magna";
+            this.offeringCardMedium14.OfferingPrice = new decimal(new int[] {
+            4250,
+            0,
+            0,
+            131072});
+            this.offeringCardMedium14.RestaurantName = "Pastry";
+            this.offeringCardMedium14.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium14.TabIndex = 1;
+            // 
+            // offeringCardMedium15
+            // 
+            this.offeringCardMedium15.Location = new System.Drawing.Point(787, 3);
+            this.offeringCardMedium15.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium15.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium15.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium15.Name = "offeringCardMedium15";
+            this.offeringCardMedium15.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium15.OfferingImage")));
+            this.offeringCardMedium15.OfferingName = "Napoletana";
+            this.offeringCardMedium15.OfferingPrice = new decimal(new int[] {
+            73,
+            0,
+            0,
+            0});
+            this.offeringCardMedium15.RestaurantName = "The Food Boutique";
+            this.offeringCardMedium15.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium15.TabIndex = 2;
+            // 
+            // offeringCardMedium16
+            // 
+            this.offeringCardMedium16.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardMedium16.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium16.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium16.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium16.Name = "offeringCardMedium16";
+            this.offeringCardMedium16.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium16.OfferingImage")));
+            this.offeringCardMedium16.OfferingName = "Lasagna";
+            this.offeringCardMedium16.OfferingPrice = new decimal(new int[] {
+            75,
+            0,
+            0,
+            0});
+            this.offeringCardMedium16.RestaurantName = "Trattoria Gusto";
+            this.offeringCardMedium16.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium16.TabIndex = 0;
+            // 
+            // offeringCardMedium17
+            // 
+            this.offeringCardMedium17.Location = new System.Drawing.Point(395, 3);
+            this.offeringCardMedium17.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium17.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium17.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium17.Name = "offeringCardMedium17";
+            this.offeringCardMedium17.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium17.OfferingImage")));
+            this.offeringCardMedium17.OfferingName = "Crispy Chicken";
+            this.offeringCardMedium17.OfferingPrice = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
+            this.offeringCardMedium17.RestaurantName = "Sapore Restaurant";
+            this.offeringCardMedium17.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium17.TabIndex = 1;
+            // 
+            // offeringCardMedium18
+            // 
+            this.offeringCardMedium18.Location = new System.Drawing.Point(787, 3);
+            this.offeringCardMedium18.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium18.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium18.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium18.Name = "offeringCardMedium18";
+            this.offeringCardMedium18.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium18.OfferingImage")));
+            this.offeringCardMedium18.OfferingName = "Special Hummus";
+            this.offeringCardMedium18.OfferingPrice = new decimal(new int[] {
+            60,
+            0,
+            0,
+            0});
+            this.offeringCardMedium18.RestaurantName = "Atmosphere Restaurant";
+            this.offeringCardMedium18.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium18.TabIndex = 2;
+            // 
+            // offeringCardMedium7
+            // 
+            this.offeringCardMedium7.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardMedium7.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium7.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium7.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium7.Name = "offeringCardMedium7";
+            this.offeringCardMedium7.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium7.OfferingImage")));
+            this.offeringCardMedium7.OfferingName = "Shiro";
+            this.offeringCardMedium7.OfferingPrice = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.offeringCardMedium7.RestaurantName = "Genet Mother House";
+            this.offeringCardMedium7.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium7.TabIndex = 0;
+            // 
+            // offeringCardMedium8
+            // 
+            this.offeringCardMedium8.Location = new System.Drawing.Point(395, 3);
+            this.offeringCardMedium8.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium8.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium8.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium8.Name = "offeringCardMedium8";
+            this.offeringCardMedium8.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium8.OfferingImage")));
+            this.offeringCardMedium8.OfferingName = "Magna";
+            this.offeringCardMedium8.OfferingPrice = new decimal(new int[] {
+            4250,
+            0,
+            0,
+            131072});
+            this.offeringCardMedium8.RestaurantName = "Pastry";
+            this.offeringCardMedium8.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium8.TabIndex = 1;
+            // 
+            // offeringCardMedium9
+            // 
+            this.offeringCardMedium9.Location = new System.Drawing.Point(787, 3);
+            this.offeringCardMedium9.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium9.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium9.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium9.Name = "offeringCardMedium9";
+            this.offeringCardMedium9.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium9.OfferingImage")));
+            this.offeringCardMedium9.OfferingName = "Napoletana";
+            this.offeringCardMedium9.OfferingPrice = new decimal(new int[] {
+            73,
+            0,
+            0,
+            0});
+            this.offeringCardMedium9.RestaurantName = "The Food Boutique";
+            this.offeringCardMedium9.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium9.TabIndex = 2;
+            // 
+            // offeringCardMedium10
+            // 
+            this.offeringCardMedium10.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardMedium10.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium10.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium10.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium10.Name = "offeringCardMedium10";
+            this.offeringCardMedium10.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium10.OfferingImage")));
+            this.offeringCardMedium10.OfferingName = "Lasagna";
+            this.offeringCardMedium10.OfferingPrice = new decimal(new int[] {
+            75,
+            0,
+            0,
+            0});
+            this.offeringCardMedium10.RestaurantName = "Trattoria Gusto";
+            this.offeringCardMedium10.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium10.TabIndex = 0;
+            // 
+            // offeringCardMedium11
+            // 
+            this.offeringCardMedium11.Location = new System.Drawing.Point(395, 3);
+            this.offeringCardMedium11.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium11.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium11.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium11.Name = "offeringCardMedium11";
+            this.offeringCardMedium11.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium11.OfferingImage")));
+            this.offeringCardMedium11.OfferingName = "Crispy Chicken";
+            this.offeringCardMedium11.OfferingPrice = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
+            this.offeringCardMedium11.RestaurantName = "Sapore Restaurant";
+            this.offeringCardMedium11.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium11.TabIndex = 1;
+            // 
+            // offeringCardMedium12
+            // 
+            this.offeringCardMedium12.Location = new System.Drawing.Point(787, 3);
+            this.offeringCardMedium12.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium12.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium12.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium12.Name = "offeringCardMedium12";
+            this.offeringCardMedium12.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium12.OfferingImage")));
+            this.offeringCardMedium12.OfferingName = "Special Hummus";
+            this.offeringCardMedium12.OfferingPrice = new decimal(new int[] {
+            60,
+            0,
+            0,
+            0});
+            this.offeringCardMedium12.RestaurantName = "Atmosphere Restaurant";
+            this.offeringCardMedium12.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium12.TabIndex = 2;
+            // 
+            // offeringCardMedium4
+            // 
+            this.offeringCardMedium4.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardMedium4.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium4.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium4.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium4.Name = "offeringCardMedium4";
+            this.offeringCardMedium4.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium4.OfferingImage")));
+            this.offeringCardMedium4.OfferingName = "Shiro";
+            this.offeringCardMedium4.OfferingPrice = new decimal(new int[] {
+            30,
+            0,
+            0,
+            0});
+            this.offeringCardMedium4.RestaurantName = "Genet Mother House";
+            this.offeringCardMedium4.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium4.TabIndex = 0;
+            // 
+            // offeringCardMedium5
+            // 
+            this.offeringCardMedium5.Location = new System.Drawing.Point(395, 3);
+            this.offeringCardMedium5.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium5.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium5.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium5.Name = "offeringCardMedium5";
+            this.offeringCardMedium5.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium5.OfferingImage")));
+            this.offeringCardMedium5.OfferingName = "Magna";
+            this.offeringCardMedium5.OfferingPrice = new decimal(new int[] {
+            4250,
+            0,
+            0,
+            131072});
+            this.offeringCardMedium5.RestaurantName = "Pastry";
+            this.offeringCardMedium5.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium5.TabIndex = 1;
+            // 
+            // offeringCardMedium6
+            // 
+            this.offeringCardMedium6.Location = new System.Drawing.Point(787, 3);
+            this.offeringCardMedium6.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium6.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium6.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium6.Name = "offeringCardMedium6";
+            this.offeringCardMedium6.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium6.OfferingImage")));
+            this.offeringCardMedium6.OfferingName = "Napoletana";
+            this.offeringCardMedium6.OfferingPrice = new decimal(new int[] {
+            73,
+            0,
+            0,
+            0});
+            this.offeringCardMedium6.RestaurantName = "The Food Boutique";
+            this.offeringCardMedium6.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium6.TabIndex = 2;
+            // 
+            // offeringCardMedium1
+            // 
+            this.offeringCardMedium1.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardMedium1.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium1.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium1.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium1.Name = "offeringCardMedium1";
+            this.offeringCardMedium1.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium1.OfferingImage")));
+            this.offeringCardMedium1.OfferingName = "Lasagna";
+            this.offeringCardMedium1.OfferingPrice = new decimal(new int[] {
+            75,
+            0,
+            0,
+            0});
+            this.offeringCardMedium1.RestaurantName = "Trattoria Gusto";
+            this.offeringCardMedium1.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium1.TabIndex = 0;
+            // 
+            // offeringCardMedium2
+            // 
+            this.offeringCardMedium2.Location = new System.Drawing.Point(395, 3);
+            this.offeringCardMedium2.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium2.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium2.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium2.Name = "offeringCardMedium2";
+            this.offeringCardMedium2.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium2.OfferingImage")));
+            this.offeringCardMedium2.OfferingName = "Crispy Chicken";
+            this.offeringCardMedium2.OfferingPrice = new decimal(new int[] {
+            90,
+            0,
+            0,
+            0});
+            this.offeringCardMedium2.RestaurantName = "Sapore Restaurant";
+            this.offeringCardMedium2.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium2.TabIndex = 1;
+            // 
+            // offeringCardMedium3
+            // 
+            this.offeringCardMedium3.Location = new System.Drawing.Point(787, 3);
+            this.offeringCardMedium3.Margin = new System.Windows.Forms.Padding(3, 3, 9, 3);
+            this.offeringCardMedium3.MaximumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium3.MinimumSize = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium3.Name = "offeringCardMedium3";
+            this.offeringCardMedium3.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardMedium3.OfferingImage")));
+            this.offeringCardMedium3.OfferingName = "Special Hummus";
+            this.offeringCardMedium3.OfferingPrice = new decimal(new int[] {
+            60,
+            0,
+            0,
+            0});
+            this.offeringCardMedium3.RestaurantName = "Atmosphere Restaurant";
+            this.offeringCardMedium3.Size = new System.Drawing.Size(380, 155);
+            this.offeringCardMedium3.TabIndex = 2;
+            // 
+            // offeringCardSmall1
+            // 
+            this.offeringCardSmall1.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardSmall1.MaximumSize = new System.Drawing.Size(510, 90);
+            this.offeringCardSmall1.MinimumSize = new System.Drawing.Size(510, 90);
+            this.offeringCardSmall1.Name = "offeringCardSmall1";
+            this.offeringCardSmall1.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardSmall1.OfferingImage")));
+            this.offeringCardSmall1.OfferingName = "Special Hummus";
+            this.offeringCardSmall1.OfferingPrice = new decimal(new int[] {
+            65,
+            0,
+            0,
+            0});
+            this.offeringCardSmall1.Size = new System.Drawing.Size(510, 90);
+            this.offeringCardSmall1.TabIndex = 11;
+            // 
+            // offeringCardSmall2
+            // 
+            this.offeringCardSmall2.Location = new System.Drawing.Point(3, 99);
+            this.offeringCardSmall2.MaximumSize = new System.Drawing.Size(510, 90);
+            this.offeringCardSmall2.MinimumSize = new System.Drawing.Size(510, 90);
+            this.offeringCardSmall2.Name = "offeringCardSmall2";
+            this.offeringCardSmall2.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardSmall2.OfferingImage")));
+            this.offeringCardSmall2.OfferingName = "Crispy Chicken";
+            this.offeringCardSmall2.OfferingPrice = new decimal(new int[] {
+            40,
+            0,
+            0,
+            0});
+            this.offeringCardSmall2.Size = new System.Drawing.Size(510, 90);
+            this.offeringCardSmall2.TabIndex = 12;
+            // 
+            // offeringCardFav4
+            // 
+            this.offeringCardFav4.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardFav4.Margin = new System.Windows.Forms.Padding(3, 3, 70, 30);
+            this.offeringCardFav4.Name = "offeringCardFav4";
+            this.offeringCardFav4.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardFav4.OfferingImage")));
+            this.offeringCardFav4.OfferingName = "Lasagna";
+            this.offeringCardFav4.OfferingPrice = new decimal(new int[] {
+            130,
+            0,
+            0,
+            0});
+            this.offeringCardFav4.Size = new System.Drawing.Size(410, 91);
+            this.offeringCardFav4.TabIndex = 7;
+            // 
+            // offeringCardFav2
+            // 
+            this.offeringCardFav2.Location = new System.Drawing.Point(486, 3);
+            this.offeringCardFav2.Margin = new System.Windows.Forms.Padding(3, 3, 70, 30);
+            this.offeringCardFav2.Name = "offeringCardFav2";
+            this.offeringCardFav2.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardFav2.OfferingImage")));
+            this.offeringCardFav2.OfferingName = "Napoletana";
+            this.offeringCardFav2.OfferingPrice = new decimal(new int[] {
+            85,
+            0,
+            0,
+            0});
+            this.offeringCardFav2.Size = new System.Drawing.Size(410, 91);
+            this.offeringCardFav2.TabIndex = 6;
+            // 
+            // offeringCardFav1
+            // 
+            this.offeringCardFav1.Location = new System.Drawing.Point(3, 127);
+            this.offeringCardFav1.Margin = new System.Windows.Forms.Padding(3, 3, 70, 30);
+            this.offeringCardFav1.Name = "offeringCardFav1";
+            this.offeringCardFav1.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardFav1.OfferingImage")));
+            this.offeringCardFav1.OfferingName = "Special Hummus";
+            this.offeringCardFav1.OfferingPrice = new decimal(new int[] {
+            60,
+            0,
+            0,
+            0});
+            this.offeringCardFav1.Size = new System.Drawing.Size(410, 91);
+            this.offeringCardFav1.TabIndex = 5;
+            // 
+            // offeringCardLarge4
+            // 
+            this.offeringCardLarge4.Location = new System.Drawing.Point(3, 3);
+            this.offeringCardLarge4.Margin = new System.Windows.Forms.Padding(3, 3, 15, 3);
+            this.offeringCardLarge4.MaximumSize = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge4.MinimumSize = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge4.Name = "offeringCardLarge4";
+            this.offeringCardLarge4.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardLarge4.OfferingImage")));
+            this.offeringCardLarge4.OfferingName = "Lasagna";
+            this.offeringCardLarge4.RestaurantName = "Trattoria Gusto";
+            this.offeringCardLarge4.Size = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge4.TabIndex = 10;
+            this.offeringCardLarge4.Time = "24:32";
+            // 
+            // offeringCardLarge1
+            // 
+            this.offeringCardLarge1.Location = new System.Drawing.Point(241, 3);
+            this.offeringCardLarge1.Margin = new System.Windows.Forms.Padding(3, 3, 15, 3);
+            this.offeringCardLarge1.MaximumSize = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge1.MinimumSize = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge1.Name = "offeringCardLarge1";
+            this.offeringCardLarge1.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardLarge1.OfferingImage")));
+            this.offeringCardLarge1.OfferingName = "Magna";
+            this.offeringCardLarge1.RestaurantName = "Pastry";
+            this.offeringCardLarge1.Size = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge1.TabIndex = 11;
+            this.offeringCardLarge1.Time = "09:37";
+            // 
+            // offeringCardLarge2
+            // 
+            this.offeringCardLarge2.Location = new System.Drawing.Point(479, 3);
+            this.offeringCardLarge2.Margin = new System.Windows.Forms.Padding(3, 3, 15, 3);
+            this.offeringCardLarge2.MaximumSize = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge2.MinimumSize = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge2.Name = "offeringCardLarge2";
+            this.offeringCardLarge2.OfferingImage = ((System.Drawing.Image)(resources.GetObject("offeringCardLarge2.OfferingImage")));
+            this.offeringCardLarge2.OfferingName = "Crispy Chicken";
+            this.offeringCardLarge2.RestaurantName = "Sapore Restaurant";
+            this.offeringCardLarge2.Size = new System.Drawing.Size(220, 325);
+            this.offeringCardLarge2.TabIndex = 12;
+            this.offeringCardLarge2.Time = "40:13";
+            // 
             // CustomerMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1159,22 +1607,28 @@
             this.materialTabControl1.ResumeLayout(false);
             this.tbHome.ResumeLayout(false);
             this.tbHome.PerformLayout();
-            this.flowLayoutPanel2.ResumeLayout(false);
-            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flpEthiopianCuisine.ResumeLayout(false);
+            this.flpMealOfTheDay.ResumeLayout(false);
             this.tbSearch.ResumeLayout(false);
             this.tbSearch.PerformLayout();
             this.materialCard1.ResumeLayout(false);
             this.materialCard1.PerformLayout();
-            this.flowLayoutPanel4.ResumeLayout(false);
+            this.flpSearchResults.ResumeLayout(false);
             this.tbFavorites.ResumeLayout(false);
             this.tbFavorites.PerformLayout();
             this.tbOrders.ResumeLayout(false);
             this.tbOrders.PerformLayout();
-            this.flowLayoutPanel5.ResumeLayout(false);
+            this.flpCurrentOrders.ResumeLayout(false);
             this.tbAccount.ResumeLayout(false);
             this.tbAccount.PerformLayout();
             this.materialCard4.ResumeLayout(false);
             this.materialCard4.PerformLayout();
+            this.flpFavorites.ResumeLayout(false);
+            this.flpEntrees.ResumeLayout(false);
+            this.flpAppetizers.ResumeLayout(false);
+            this.flpAmericanCuisine.ResumeLayout(false);
+            this.flpDesserts.ResumeLayout(false);
+            this.flpChineseCuisine.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1188,41 +1642,38 @@
         private System.Windows.Forms.ImageList ilTabIcons;
         private System.Windows.Forms.TabPage tbAccount;
         private MaterialSkin.Controls.MaterialCard materialCard4;
-        private MaterialSkin.Controls.MaterialLabel materialLabel10;
-        private MaterialSkin.Controls.MaterialLabel materialLabel11;
-        private MaterialSkin.Controls.MaterialLabel materialLabel12;
+        private MaterialSkin.Controls.MaterialLabel lblPhoneNumber;
+        private MaterialSkin.Controls.MaterialLabel lblUsername;
+        private MaterialSkin.Controls.MaterialLabel lblFullName;
         private MaterialSkin.Controls.MaterialLabel materialLabel9;
         private MaterialSkin.Controls.MaterialLabel materialLabel8;
         private MaterialSkin.Controls.MaterialLabel materialLabel7;
         private MaterialSkin.Controls.MaterialDivider materialDivider2;
         private MaterialSkin.Controls.MaterialDivider materialDivider1;
-        private MaterialSkin.Controls.MaterialLabel materialLabel13;
+        private MaterialSkin.Controls.MaterialLabel lblEmailAddress;
         private MaterialSkin.Controls.MaterialLabel materialLabel14;
         private MaterialSkin.Controls.MaterialDivider materialDivider3;
         private MaterialSkin.Controls.MaterialLabel materialLabel24;
         private MaterialSkin.Controls.MaterialLabel materialLabel3;
         private MaterialSkin.Controls.MaterialLabel materialLabel4;
         private MaterialSkin.Controls.MaterialLabel materialLabel6;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.FlowLayoutPanel flpEthiopianCuisine;
         private OfferingCardMedium offeringCardMedium4;
         private OfferingCardMedium offeringCardMedium5;
         private OfferingCardMedium offeringCardMedium6;
         private MaterialSkin.Controls.MaterialLabel materialLabel5;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.FlowLayoutPanel flpMealOfTheDay;
         private OfferingCardMedium offeringCardMedium1;
         private OfferingCardMedium offeringCardMedium2;
         private OfferingCardMedium offeringCardMedium3;
-        private OfferingCardFav offeringCardFav4;
-        private OfferingCardFav offeringCardFav2;
-        private OfferingCardFav offeringCardFav1;
         private OfferingCardLarge offeringCardLarge2;
         private OfferingCardLarge offeringCardLarge1;
         private OfferingCardLarge offeringCardLarge4;
         private System.Windows.Forms.TabPage tbSearch;
         private OfferingCardSmall offeringCardSmall2;
         private OfferingCardSmall offeringCardSmall1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel5;
+        private System.Windows.Forms.FlowLayoutPanel flpSearchResults;
+        private System.Windows.Forms.FlowLayoutPanel flpCurrentOrders;
         private ComponentFactory.Krypton.Toolkit.KryptonButton btnLogIn;
         private MaterialSkin.Controls.MaterialCard materialCard1;
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox3;
@@ -1248,6 +1699,35 @@
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.FlowLayoutPanel flpFavorites;
+        private OfferingCardFav offeringCardFav4;
+        private OfferingCardFav offeringCardFav2;
+        private OfferingCardFav offeringCardFav1;
+        private MaterialSkin.Controls.MaterialLabel materialLabel21;
+        private System.Windows.Forms.FlowLayoutPanel flpChineseCuisine;
+        private OfferingCardMedium offeringCardMedium19;
+        private OfferingCardMedium offeringCardMedium20;
+        private OfferingCardMedium offeringCardMedium21;
+        private MaterialSkin.Controls.MaterialLabel materialLabel19;
+        private System.Windows.Forms.FlowLayoutPanel flpAmericanCuisine;
+        private OfferingCardMedium offeringCardMedium13;
+        private OfferingCardMedium offeringCardMedium14;
+        private OfferingCardMedium offeringCardMedium15;
+        private MaterialSkin.Controls.MaterialLabel materialLabel20;
+        private System.Windows.Forms.FlowLayoutPanel flpDesserts;
+        private OfferingCardMedium offeringCardMedium16;
+        private OfferingCardMedium offeringCardMedium17;
+        private OfferingCardMedium offeringCardMedium18;
+        private MaterialSkin.Controls.MaterialLabel materialLabel17;
+        private System.Windows.Forms.FlowLayoutPanel flpEntrees;
+        private OfferingCardMedium offeringCardMedium7;
+        private OfferingCardMedium offeringCardMedium8;
+        private OfferingCardMedium offeringCardMedium9;
+        private MaterialSkin.Controls.MaterialLabel materialLabel18;
+        private System.Windows.Forms.FlowLayoutPanel flpAppetizers;
+        private OfferingCardMedium offeringCardMedium10;
+        private OfferingCardMedium offeringCardMedium11;
+        private OfferingCardMedium offeringCardMedium12;
     }
 }
 

@@ -49,7 +49,7 @@
             this.cardAddOffering.Controls.Add(this.pictureBox2);
             this.cardAddOffering.Depth = 0;
             this.cardAddOffering.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.cardAddOffering.Location = new System.Drawing.Point(85, 288);
+            this.cardAddOffering.Location = new System.Drawing.Point(85, 262);
             this.cardAddOffering.Margin = new System.Windows.Forms.Padding(14);
             this.cardAddOffering.MouseState = MaterialSkin.MouseState.HOVER;
             this.cardAddOffering.Name = "cardAddOffering";
@@ -88,7 +88,7 @@
             this.cardAddRestaurant.Controls.Add(this.pictureBox1);
             this.cardAddRestaurant.Depth = 0;
             this.cardAddRestaurant.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
-            this.cardAddRestaurant.Location = new System.Drawing.Point(85, 110);
+            this.cardAddRestaurant.Location = new System.Drawing.Point(85, 84);
             this.cardAddRestaurant.Margin = new System.Windows.Forms.Padding(14);
             this.cardAddRestaurant.MouseState = MaterialSkin.MouseState.HOVER;
             this.cardAddRestaurant.Name = "cardAddRestaurant";
@@ -124,7 +124,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins Medium", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(20, 30);
+            this.label1.Location = new System.Drawing.Point(20, 4);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(214, 42);
             this.label1.TabIndex = 6;

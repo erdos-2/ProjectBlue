@@ -39,7 +39,9 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pnlMain = new System.Windows.Forms.Panel();
+            this.pbClose = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbClose)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -151,17 +153,29 @@
             // 
             // pnlMain
             // 
-            this.pnlMain.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pnlMain.Location = new System.Drawing.Point(227, 0);
+            this.pnlMain.Location = new System.Drawing.Point(227, 42);
             this.pnlMain.Name = "pnlMain";
-            this.pnlMain.Size = new System.Drawing.Size(1139, 768);
+            this.pnlMain.Size = new System.Drawing.Size(1139, 726);
             this.pnlMain.TabIndex = 1;
+            // 
+            // pbClose
+            // 
+            this.pbClose.Image = global::ProjectBlue.Properties.Resources.round_close_black_24dp;
+            this.pbClose.Location = new System.Drawing.Point(1330, 12);
+            this.pbClose.Name = "pbClose";
+            this.pbClose.Size = new System.Drawing.Size(24, 24);
+            this.pbClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbClose.TabIndex = 44;
+            this.pbClose.TabStop = false;
+            this.pbClose.Click += new System.EventHandler(this.pbClose_Click);
             // 
             // ManagerMainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1366, 768);
+            this.Controls.Add(this.pbClose);
             this.Controls.Add(this.pnlMain);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -174,6 +188,7 @@
             this.Text = "ManagerMainForm";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbClose)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -189,5 +204,6 @@
         private System.Windows.Forms.Button btnAccount;
         private System.Windows.Forms.Button btnAdd;
         private System.Windows.Forms.Panel pnlMain;
+        private System.Windows.Forms.PictureBox pbClose;
     }
 }

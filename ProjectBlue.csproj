@@ -304,5 +304,8 @@
   <ItemGroup>
     <None Include="Assets\round_view_list_white_24dp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\arrow_back_FILL0_wght400_GRAD0_opsz24.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

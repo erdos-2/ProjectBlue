@@ -23,7 +23,7 @@ namespace ProjectBlue
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey700, Accent.Blue700, TextShade.WHITE );
         }
 
-        private void pbClose_Click(object sender, EventArgs e)
+        private void pbGoBack_Click(object sender, EventArgs e)
         {
             Close();
         }

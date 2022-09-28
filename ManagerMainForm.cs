@@ -37,11 +37,6 @@ namespace ProjectBlue
             formToBeDisplayed.Show();
         }
 
-        private void pbClose_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
         private void btnView_Click(object sender, EventArgs e)
         {
             SidePanelIndicator.Top = btnView.Top;
@@ -51,13 +46,18 @@ namespace ProjectBlue
         private void btnAdd_Click(object sender, EventArgs e)
         {
             SidePanelIndicator.Top = btnAdd.Top;
-            LoadForm(new AddItemsForm());
+            LoadForm(new AddItemsForm(this));
         }
 
         private void btnAccount_Click(object sender, EventArgs e)
         {
             SidePanelIndicator.Top = btnAccount.Top;
             LoadForm(new ManagerAccountForm());
+        }
+
+        private void pbClose_Click(object sender, EventArgs e)
+        {
+            Close();
         }
     }
 }

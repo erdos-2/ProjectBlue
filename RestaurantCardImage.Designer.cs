@@ -106,8 +106,9 @@
             // RestaurantCardImage
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-            this.BackColor = System.Drawing.Color.Transparent;
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.Controls.Add(this.materialCard1);
+            this.Margin = new System.Windows.Forms.Padding(14);
             this.MaximumSize = new System.Drawing.Size(417, 175);
             this.MinimumSize = new System.Drawing.Size(417, 175);
             this.Name = "RestaurantCardImage";

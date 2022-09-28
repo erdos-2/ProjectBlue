@@ -12,23 +12,24 @@ namespace ProjectBlue
 {
     public partial class AddItemsForm : Form
     {
-        public AddItemsForm()
+        ManagerMainForm managerMainForm1;
+        public AddItemsForm(ManagerMainForm managerMainForm1)
         {
             InitializeComponent();
+
+            this.managerMainForm1 = managerMainForm1;
         }
 
         private void cardAddRestaurant_Click(object sender, EventArgs e)
         {
-            Hide();
             AddRestaurantForm addRestaurantForm1 = new AddRestaurantForm();
-            addRestaurantForm1.ShowDialog();
+            managerMainForm1.LoadForm(addRestaurantForm1);
         }
 
         private void cardAddOffering_Click(object sender, EventArgs e)
         {
-            Hide();
             AddOfferingForm addOfferingForm1 = new AddOfferingForm();
-            addOfferingForm1.ShowDialog();
+            managerMainForm1.LoadForm(addOfferingForm1);
         }
     }
 }

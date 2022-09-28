@@ -13,6 +13,14 @@ namespace ProjectBlue
 {
     public partial class RestaurantCardImage : UserControl
     {
+        private Image _restaurantImage;
+
+        public Image RestaurantImage
+        {
+            get { return _restaurantImage; }
+            set { _restaurantImage = value; pbRestaurantImage.Image = value; }
+        }
+
         private string _restaurantName;
 
         public string RestaurantName

@@ -23,14 +23,9 @@ namespace ProjectBlue
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.Blue700, TextShade.WHITE);
         }
 
-        private void pbClose_Click(object sender, EventArgs e)
+        private void pbGoBack_Click(object sender, EventArgs e)
         {
             Close();
-        }
-
-        private void pbRestaurantImage_Click(object sender, EventArgs e)
-        {
-            // Let user choose and add image
         }
     }
 }

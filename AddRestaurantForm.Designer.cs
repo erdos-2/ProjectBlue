@@ -39,15 +39,15 @@
             this.materialDivider2 = new MaterialSkin.Controls.MaterialDivider();
             this.btnSave = new ComponentFactory.Krypton.Toolkit.KryptonButton();
             this.label1 = new System.Windows.Forms.Label();
-            this.pbClose = new System.Windows.Forms.PictureBox();
-            this.pbRestaurantImage = new System.Windows.Forms.PictureBox();
             this.materialLabel5 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel6 = new MaterialSkin.Controls.MaterialLabel();
             this.materialLabel7 = new MaterialSkin.Controls.MaterialLabel();
             this.txtClosingTime = new MaterialSkin.Controls.MaterialTextBox2();
             this.txtOpeningTime = new MaterialSkin.Controls.MaterialTextBox2();
             this.txtAddress = new MaterialSkin.Controls.MaterialTextBox2();
-            ((System.ComponentModel.ISupportInitialize)(this.pbClose)).BeginInit();
+            this.pbGoBack = new System.Windows.Forms.PictureBox();
+            this.pbRestaurantImage = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGoBack)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRestaurantImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -61,7 +61,7 @@
             this.txtRestaurantName.HideSelection = true;
             this.txtRestaurantName.Hint = "Name";
             this.txtRestaurantName.LeadingIcon = null;
-            this.txtRestaurantName.Location = new System.Drawing.Point(301, 112);
+            this.txtRestaurantName.Location = new System.Drawing.Point(305, 147);
             this.txtRestaurantName.MaxLength = 32767;
             this.txtRestaurantName.MouseState = MaterialSkin.MouseState.OUT;
             this.txtRestaurantName.Name = "txtRestaurantName";
@@ -90,7 +90,7 @@
             this.txtPhoneNumber.HideSelection = true;
             this.txtPhoneNumber.Hint = "Phone Number";
             this.txtPhoneNumber.LeadingIcon = null;
-            this.txtPhoneNumber.Location = new System.Drawing.Point(301, 242);
+            this.txtPhoneNumber.Location = new System.Drawing.Point(305, 277);
             this.txtPhoneNumber.MaxLength = 32767;
             this.txtPhoneNumber.MouseState = MaterialSkin.MouseState.OUT;
             this.txtPhoneNumber.Name = "txtPhoneNumber";
@@ -113,7 +113,7 @@
             // 
             this.materialCheckbox1.AutoSize = true;
             this.materialCheckbox1.Depth = 0;
-            this.materialCheckbox1.Location = new System.Drawing.Point(863, 112);
+            this.materialCheckbox1.Location = new System.Drawing.Point(867, 147);
             this.materialCheckbox1.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckbox1.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialCheckbox1.MouseState = MaterialSkin.MouseState.HOVER;
@@ -129,7 +129,7 @@
             // 
             this.materialCheckbox2.AutoSize = true;
             this.materialCheckbox2.Depth = 0;
-            this.materialCheckbox2.Location = new System.Drawing.Point(863, 153);
+            this.materialCheckbox2.Location = new System.Drawing.Point(867, 188);
             this.materialCheckbox2.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckbox2.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialCheckbox2.MouseState = MaterialSkin.MouseState.HOVER;
@@ -145,7 +145,7 @@
             // 
             this.materialCheckbox3.AutoSize = true;
             this.materialCheckbox3.Depth = 0;
-            this.materialCheckbox3.Location = new System.Drawing.Point(863, 194);
+            this.materialCheckbox3.Location = new System.Drawing.Point(867, 229);
             this.materialCheckbox3.Margin = new System.Windows.Forms.Padding(0);
             this.materialCheckbox3.MouseLocation = new System.Drawing.Point(-1, -1);
             this.materialCheckbox3.MouseState = MaterialSkin.MouseState.HOVER;
@@ -163,7 +163,7 @@
             this.materialLabel1.Depth = 0;
             this.materialLabel1.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel1.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel1.Location = new System.Drawing.Point(859, 71);
+            this.materialLabel1.Location = new System.Drawing.Point(863, 106);
             this.materialLabel1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel1.Name = "materialLabel1";
             this.materialLabel1.Size = new System.Drawing.Size(141, 24);
@@ -176,7 +176,7 @@
             this.materialLabel3.Depth = 0;
             this.materialLabel3.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel3.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel3.Location = new System.Drawing.Point(297, 71);
+            this.materialLabel3.Location = new System.Drawing.Point(301, 106);
             this.materialLabel3.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel3.Name = "materialLabel3";
             this.materialLabel3.Size = new System.Drawing.Size(90, 24);
@@ -187,7 +187,7 @@
             // 
             this.materialDivider1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialDivider1.Depth = 0;
-            this.materialDivider1.Location = new System.Drawing.Point(570, 68);
+            this.materialDivider1.Location = new System.Drawing.Point(574, 103);
             this.materialDivider1.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider1.Name = "materialDivider1";
             this.materialDivider1.Size = new System.Drawing.Size(2, 230);
@@ -198,7 +198,7 @@
             // 
             this.materialDivider2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(30)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.materialDivider2.Depth = 0;
-            this.materialDivider2.Location = new System.Drawing.Point(826, 68);
+            this.materialDivider2.Location = new System.Drawing.Point(830, 103);
             this.materialDivider2.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialDivider2.Name = "materialDivider2";
             this.materialDivider2.Size = new System.Drawing.Size(2, 230);
@@ -207,7 +207,7 @@
             // 
             // btnSave
             // 
-            this.btnSave.Location = new System.Drawing.Point(879, 312);
+            this.btnSave.Location = new System.Drawing.Point(883, 347);
             this.btnSave.Name = "btnSave";
             this.btnSave.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
             this.btnSave.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
@@ -261,32 +261,11 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Poppins Medium", 15F);
-            this.label1.Location = new System.Drawing.Point(21, 15);
+            this.label1.Location = new System.Drawing.Point(25, 50);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(217, 36);
             this.label1.TabIndex = 26;
             this.label1.Text = "Add Restaurant Info";
-            // 
-            // pbClose
-            // 
-            this.pbClose.Image = global::ProjectBlue.Properties.Resources.round_close_black_24dp;
-            this.pbClose.Location = new System.Drawing.Point(1044, 12);
-            this.pbClose.Name = "pbClose";
-            this.pbClose.Size = new System.Drawing.Size(24, 24);
-            this.pbClose.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbClose.TabIndex = 17;
-            this.pbClose.TabStop = false;
-            this.pbClose.Click += new System.EventHandler(this.pbClose_Click);
-            // 
-            // pbRestaurantImage
-            // 
-            this.pbRestaurantImage.BackColor = System.Drawing.Color.Silver;
-            this.pbRestaurantImage.Location = new System.Drawing.Point(27, 63);
-            this.pbRestaurantImage.Name = "pbRestaurantImage";
-            this.pbRestaurantImage.Size = new System.Drawing.Size(240, 240);
-            this.pbRestaurantImage.TabIndex = 14;
-            this.pbRestaurantImage.TabStop = false;
-            this.pbRestaurantImage.Click += new System.EventHandler(this.pbRestaurantImage_Click);
             // 
             // materialLabel5
             // 
@@ -294,7 +273,7 @@
             this.materialLabel5.Depth = 0;
             this.materialLabel5.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel5.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
-            this.materialLabel5.Location = new System.Drawing.Point(753, 194);
+            this.materialLabel5.Location = new System.Drawing.Point(757, 229);
             this.materialLabel5.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel5.Name = "materialLabel5";
             this.materialLabel5.Size = new System.Drawing.Size(30, 19);
@@ -307,7 +286,7 @@
             this.materialLabel6.Depth = 0;
             this.materialLabel6.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel6.FontType = MaterialSkin.MaterialSkinManager.fontType.Subtitle1;
-            this.materialLabel6.Location = new System.Drawing.Point(753, 130);
+            this.materialLabel6.Location = new System.Drawing.Point(757, 165);
             this.materialLabel6.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel6.Name = "materialLabel6";
             this.materialLabel6.Size = new System.Drawing.Size(30, 19);
@@ -320,7 +299,7 @@
             this.materialLabel7.Depth = 0;
             this.materialLabel7.Font = new System.Drawing.Font("Roboto Medium", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Pixel);
             this.materialLabel7.FontType = MaterialSkin.MaterialSkinManager.fontType.H6;
-            this.materialLabel7.Location = new System.Drawing.Point(607, 71);
+            this.materialLabel7.Location = new System.Drawing.Point(611, 106);
             this.materialLabel7.MouseState = MaterialSkin.MouseState.HOVER;
             this.materialLabel7.Name = "materialLabel7";
             this.materialLabel7.Size = new System.Drawing.Size(132, 24);
@@ -337,7 +316,7 @@
             this.txtClosingTime.HideSelection = true;
             this.txtClosingTime.Hint = "Closing Time";
             this.txtClosingTime.LeadingIcon = null;
-            this.txtClosingTime.Location = new System.Drawing.Point(611, 177);
+            this.txtClosingTime.Location = new System.Drawing.Point(615, 212);
             this.txtClosingTime.MaxLength = 32767;
             this.txtClosingTime.MouseState = MaterialSkin.MouseState.OUT;
             this.txtClosingTime.Name = "txtClosingTime";
@@ -366,7 +345,7 @@
             this.txtOpeningTime.HideSelection = true;
             this.txtOpeningTime.Hint = "Opening Time";
             this.txtOpeningTime.LeadingIcon = null;
-            this.txtOpeningTime.Location = new System.Drawing.Point(611, 112);
+            this.txtOpeningTime.Location = new System.Drawing.Point(615, 147);
             this.txtOpeningTime.MaxLength = 32767;
             this.txtOpeningTime.MouseState = MaterialSkin.MouseState.OUT;
             this.txtOpeningTime.Name = "txtOpeningTime";
@@ -395,7 +374,7 @@
             this.txtAddress.HideSelection = true;
             this.txtAddress.Hint = "Address";
             this.txtAddress.LeadingIcon = null;
-            this.txtAddress.Location = new System.Drawing.Point(301, 177);
+            this.txtAddress.Location = new System.Drawing.Point(305, 212);
             this.txtAddress.MaxLength = 32767;
             this.txtAddress.MouseState = MaterialSkin.MouseState.OUT;
             this.txtAddress.Name = "txtAddress";
@@ -414,12 +393,32 @@
             this.txtAddress.TrailingIcon = null;
             this.txtAddress.UseSystemPasswordChar = false;
             // 
+            // pbGoBack
+            // 
+            this.pbGoBack.Image = global::ProjectBlue.Properties.Resources.arrow_back_FILL0_wght400_GRAD0_opsz24;
+            this.pbGoBack.Location = new System.Drawing.Point(12, 12);
+            this.pbGoBack.Name = "pbGoBack";
+            this.pbGoBack.Size = new System.Drawing.Size(24, 24);
+            this.pbGoBack.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbGoBack.TabIndex = 17;
+            this.pbGoBack.TabStop = false;
+            this.pbGoBack.Click += new System.EventHandler(this.pbGoBack_Click);
+            // 
+            // pbRestaurantImage
+            // 
+            this.pbRestaurantImage.BackColor = System.Drawing.Color.Silver;
+            this.pbRestaurantImage.Location = new System.Drawing.Point(31, 98);
+            this.pbRestaurantImage.Name = "pbRestaurantImage";
+            this.pbRestaurantImage.Size = new System.Drawing.Size(240, 240);
+            this.pbRestaurantImage.TabIndex = 14;
+            this.pbRestaurantImage.TabStop = false;
+            // 
             // AddRestaurantForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(1080, 367);
+            this.BackColor = System.Drawing.SystemColors.Control;
+            this.ClientSize = new System.Drawing.Size(1080, 420);
             this.Controls.Add(this.txtAddress);
             this.Controls.Add(this.materialLabel5);
             this.Controls.Add(this.materialLabel6);
@@ -428,7 +427,7 @@
             this.Controls.Add(this.txtOpeningTime);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSave);
-            this.Controls.Add(this.pbClose);
+            this.Controls.Add(this.pbGoBack);
             this.Controls.Add(this.materialDivider2);
             this.Controls.Add(this.materialDivider1);
             this.Controls.Add(this.pbRestaurantImage);
@@ -447,7 +446,7 @@
             | ComponentFactory.Krypton.Toolkit.PaletteDrawBorders.Right)));
             this.StateCommon.Border.Rounding = 8;
             this.Text = "AddRestaurantForm";
-            ((System.ComponentModel.ISupportInitialize)(this.pbClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbGoBack)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbRestaurantImage)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -466,7 +465,7 @@
         private System.Windows.Forms.PictureBox pbRestaurantImage;
         private MaterialSkin.Controls.MaterialDivider materialDivider1;
         private MaterialSkin.Controls.MaterialDivider materialDivider2;
-        private System.Windows.Forms.PictureBox pbClose;
+        private System.Windows.Forms.PictureBox pbGoBack;
         private ComponentFactory.Krypton.Toolkit.KryptonButton btnSave;
         private System.Windows.Forms.Label label1;
         private MaterialSkin.Controls.MaterialLabel materialLabel5;

@@ -22,13 +22,13 @@ namespace ProjectBlue
 
         private void cardAddRestaurant_Click(object sender, EventArgs e)
         {
-            AddRestaurantForm addRestaurantForm1 = new AddRestaurantForm();
+            AddRestaurantForm addRestaurantForm1 = new AddRestaurantForm(managerMainForm1);
             managerMainForm1.LoadForm(addRestaurantForm1);
         }
 
         private void cardAddOffering_Click(object sender, EventArgs e)
         {
-            AddOfferingForm addOfferingForm1 = new AddOfferingForm();
+            AddOfferingForm addOfferingForm1 = new AddOfferingForm(managerMainForm1);
             managerMainForm1.LoadForm(addOfferingForm1);
         }
     }

@@ -15,17 +15,20 @@ namespace ProjectBlue
 {
     public partial class AddRestaurantForm : KryptonForm
     {
-        public AddRestaurantForm()
+        ManagerMainForm managerMainForm1;
+        public AddRestaurantForm(ManagerMainForm managerMainForm1)
         {
             InitializeComponent();
 
             var materialSkinManager = MaterialSkinManager.Instance;
             materialSkinManager.ColorScheme = new MaterialSkin.ColorScheme(Primary.BlueGrey800, Primary.BlueGrey900, Primary.BlueGrey500, Accent.Blue700, TextShade.WHITE);
+
+            this.managerMainForm1 = managerMainForm1;
         }
 
         private void pbGoBack_Click(object sender, EventArgs e)
         {
-            Close();
+            managerMainForm1.LoadForm(new AddItemsForm(managerMainForm1));
         }
     }
 }

@@ -32,10 +32,10 @@
             this.materialCard1 = new MaterialSkin.Controls.MaterialCard();
             this.lblOfferingPrice = new MaterialSkin.Controls.MaterialLabel();
             this.lblOfferingName = new MaterialSkin.Controls.MaterialLabel();
-            this.pbIcon = new System.Windows.Forms.PictureBox();
+            this.pbMoreVertIcon = new System.Windows.Forms.PictureBox();
             this.pbOfferingImage = new System.Windows.Forms.PictureBox();
             this.materialCard1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbIcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMoreVertIcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImage)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +44,7 @@
             this.materialCard1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
             this.materialCard1.Controls.Add(this.lblOfferingPrice);
             this.materialCard1.Controls.Add(this.lblOfferingName);
-            this.materialCard1.Controls.Add(this.pbIcon);
+            this.materialCard1.Controls.Add(this.pbMoreVertIcon);
             this.materialCard1.Controls.Add(this.pbOfferingImage);
             this.materialCard1.Depth = 0;
             this.materialCard1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
@@ -81,15 +81,16 @@
             this.lblOfferingName.TabIndex = 2;
             this.lblOfferingName.Text = "materialLabel1";
             // 
-            // pbIcon
+            // pbMoreVertIcon
             // 
-            this.pbIcon.Image = ((System.Drawing.Image)(resources.GetObject("pbIcon.Image")));
-            this.pbIcon.Location = new System.Drawing.Point(357, 25);
-            this.pbIcon.Name = "pbIcon";
-            this.pbIcon.Size = new System.Drawing.Size(36, 36);
-            this.pbIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pbIcon.TabIndex = 1;
-            this.pbIcon.TabStop = false;
+            this.pbMoreVertIcon.Image = ((System.Drawing.Image)(resources.GetObject("pbMoreVertIcon.Image")));
+            this.pbMoreVertIcon.Location = new System.Drawing.Point(357, 25);
+            this.pbMoreVertIcon.Name = "pbMoreVertIcon";
+            this.pbMoreVertIcon.Size = new System.Drawing.Size(36, 36);
+            this.pbMoreVertIcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbMoreVertIcon.TabIndex = 1;
+            this.pbMoreVertIcon.TabStop = false;
+            this.pbMoreVertIcon.Click += new System.EventHandler(this.pbMoreVertIcon_Click);
             // 
             // pbOfferingImage
             // 
@@ -109,7 +110,7 @@
             this.Size = new System.Drawing.Size(410, 91);
             this.materialCard1.ResumeLayout(false);
             this.materialCard1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pbIcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbMoreVertIcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbOfferingImage)).EndInit();
             this.ResumeLayout(false);
 
@@ -120,7 +121,7 @@
         private MaterialSkin.Controls.MaterialCard materialCard1;
         private MaterialSkin.Controls.MaterialLabel lblOfferingPrice;
         private MaterialSkin.Controls.MaterialLabel lblOfferingName;
-        private System.Windows.Forms.PictureBox pbIcon;
+        private System.Windows.Forms.PictureBox pbMoreVertIcon;
         private System.Windows.Forms.PictureBox pbOfferingImage;
     }
 }

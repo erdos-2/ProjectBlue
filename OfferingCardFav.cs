@@ -46,5 +46,10 @@ namespace ProjectBlue
             OfferingName = offering.Name;
             OfferingPrice = offering.Price;
         }
+
+        private void pbMoreVertIcon_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Add to Favorites\nRemove from Favorites");
+        }
     }
 }

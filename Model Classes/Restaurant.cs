@@ -9,13 +9,16 @@ namespace ProjectBlue.Model_Classes
 {
     public class Restaurant
     {
-        public string ID { get; set; }
+        public int Id { get; set; }
         public Image Image { get; set; }
         public string Name { get; set; }
         public string Address { get; set; }
         public string PhoneNumber { get; set; }
         public string ServiceOptions { get; set; }
         public string WorkingHours { get; set; }
-        public Offering[] Offerings { get; set; }
+        public List<Offering> Offerings { get; set; }
+        // Navigation Properties
+        public int ManagerId { get; set; }
+        public Manager Manager { get; set; }
     }
 }

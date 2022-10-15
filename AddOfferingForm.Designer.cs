@@ -35,7 +35,6 @@
             this.materialCheckbox2 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialCheckbox3 = new MaterialSkin.Controls.MaterialCheckbox();
             this.materialLabel1 = new MaterialSkin.Controls.MaterialLabel();
-            this.txtRestaurantName = new MaterialSkin.Controls.MaterialTextBox2();
             this.txtOfferingName = new MaterialSkin.Controls.MaterialTextBox2();
             this.label2 = new System.Windows.Forms.Label();
             this.txtPrice = new MaterialSkin.Controls.MaterialTextBox2();
@@ -63,6 +62,7 @@
             this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
             this.pbGoBack = new System.Windows.Forms.PictureBox();
             this.pbRestaurantImage = new System.Windows.Forms.PictureBox();
+            this.materialComboBox1 = new MaterialSkin.Controls.MaterialComboBox();
             this.gbMealOfTheDay.SuspendLayout();
             this.gpCourseOfMeal.SuspendLayout();
             this.gpCuisine.SuspendLayout();
@@ -205,35 +205,6 @@
             this.materialLabel1.Size = new System.Drawing.Size(141, 24);
             this.materialLabel1.TabIndex = 33;
             this.materialLabel1.Text = "Service Options";
-            // 
-            // txtRestaurantName
-            // 
-            this.txtRestaurantName.AnimateReadOnly = false;
-            this.txtRestaurantName.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.txtRestaurantName.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.txtRestaurantName.Depth = 0;
-            this.txtRestaurantName.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
-            this.txtRestaurantName.HideSelection = true;
-            this.txtRestaurantName.Hint = "Restaurant Name";
-            this.txtRestaurantName.LeadingIcon = null;
-            this.txtRestaurantName.Location = new System.Drawing.Point(305, 277);
-            this.txtRestaurantName.MaxLength = 32767;
-            this.txtRestaurantName.MouseState = MaterialSkin.MouseState.OUT;
-            this.txtRestaurantName.Name = "txtRestaurantName";
-            this.txtRestaurantName.PasswordChar = '\0';
-            this.txtRestaurantName.PrefixSuffixText = null;
-            this.txtRestaurantName.ReadOnly = false;
-            this.txtRestaurantName.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.txtRestaurantName.SelectedText = "";
-            this.txtRestaurantName.SelectionLength = 0;
-            this.txtRestaurantName.SelectionStart = 0;
-            this.txtRestaurantName.ShortcutsEnabled = true;
-            this.txtRestaurantName.Size = new System.Drawing.Size(224, 48);
-            this.txtRestaurantName.TabIndex = 29;
-            this.txtRestaurantName.TabStop = false;
-            this.txtRestaurantName.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.txtRestaurantName.TrailingIcon = null;
-            this.txtRestaurantName.UseSystemPasswordChar = false;
             // 
             // txtOfferingName
             // 
@@ -666,12 +637,36 @@
             this.pbRestaurantImage.TabIndex = 40;
             this.pbRestaurantImage.TabStop = false;
             // 
+            // materialComboBox1
+            // 
+            this.materialComboBox1.AutoResize = false;
+            this.materialComboBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.materialComboBox1.Depth = 0;
+            this.materialComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawVariable;
+            this.materialComboBox1.DropDownHeight = 174;
+            this.materialComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.materialComboBox1.DropDownWidth = 121;
+            this.materialComboBox1.Font = new System.Drawing.Font("Roboto", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Pixel);
+            this.materialComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(222)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.materialComboBox1.FormattingEnabled = true;
+            this.materialComboBox1.Hint = "Restaurant";
+            this.materialComboBox1.IntegralHeight = false;
+            this.materialComboBox1.ItemHeight = 43;
+            this.materialComboBox1.Location = new System.Drawing.Point(305, 277);
+            this.materialComboBox1.MaxDropDownItems = 4;
+            this.materialComboBox1.MouseState = MaterialSkin.MouseState.OUT;
+            this.materialComboBox1.Name = "materialComboBox1";
+            this.materialComboBox1.Size = new System.Drawing.Size(224, 49);
+            this.materialComboBox1.StartIndex = 0;
+            this.materialComboBox1.TabIndex = 78;
+            // 
             // AddOfferingForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1080, 618);
+            this.Controls.Add(this.materialComboBox1);
             this.Controls.Add(this.gpCuisine);
             this.Controls.Add(this.gpCourseOfMeal);
             this.Controls.Add(this.gbMealOfTheDay);
@@ -694,7 +689,6 @@
             this.Controls.Add(this.materialCheckbox2);
             this.Controls.Add(this.materialCheckbox3);
             this.Controls.Add(this.materialLabel1);
-            this.Controls.Add(this.txtRestaurantName);
             this.Controls.Add(this.txtOfferingName);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "AddOfferingForm";
@@ -728,7 +722,6 @@
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox2;
         private MaterialSkin.Controls.MaterialCheckbox materialCheckbox3;
         private MaterialSkin.Controls.MaterialLabel materialLabel1;
-        private MaterialSkin.Controls.MaterialTextBox2 txtRestaurantName;
         private MaterialSkin.Controls.MaterialTextBox2 txtOfferingName;
         private System.Windows.Forms.Label label2;
         private MaterialSkin.Controls.MaterialTextBox2 txtPrice;
@@ -754,5 +747,6 @@
         private MaterialSkin.Controls.MaterialRadioButton materialRadioButton9;
         private MaterialSkin.Controls.MaterialDivider materialDivider2;
         private MaterialSkin.Controls.MaterialDivider materialDivider1;
+        private MaterialSkin.Controls.MaterialComboBox materialComboBox1;
     }
 }

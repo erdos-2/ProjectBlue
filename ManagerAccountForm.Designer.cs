@@ -42,7 +42,9 @@
             this.materialDivider1 = new MaterialSkin.Controls.MaterialDivider();
             this.label1 = new System.Windows.Forms.Label();
             this.btnLogOut = new ComponentFactory.Krypton.Toolkit.KryptonButton();
+            this.pbEdit = new System.Windows.Forms.PictureBox();
             this.materialCard4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEdit)).BeginInit();
             this.SuspendLayout();
             // 
             // materialCard4
@@ -218,7 +220,7 @@
             // 
             // btnLogOut
             // 
-            this.btnLogOut.Location = new System.Drawing.Point(400, 443);
+            this.btnLogOut.Location = new System.Drawing.Point(400, 463);
             this.btnLogOut.Name = "btnLogOut";
             this.btnLogOut.OverrideDefault.Back.Color1 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
             this.btnLogOut.OverrideDefault.Back.Color2 = System.Drawing.Color.FromArgb(((int)(((byte)(38)))), ((int)(((byte)(50)))), ((int)(((byte)(56)))));
@@ -268,11 +270,22 @@
             this.btnLogOut.TabIndex = 26;
             this.btnLogOut.Values.Text = "Log Out";
             // 
+            // pbEdit
+            // 
+            this.pbEdit.Image = global::ProjectBlue.Properties.Resources.round_edit_black_24dp;
+            this.pbEdit.Location = new System.Drawing.Point(716, 416);
+            this.pbEdit.Name = "pbEdit";
+            this.pbEdit.Size = new System.Drawing.Size(24, 24);
+            this.pbEdit.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pbEdit.TabIndex = 53;
+            this.pbEdit.TabStop = false;
+            // 
             // ManagerAccountForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1080, 667);
+            this.Controls.Add(this.pbEdit);
             this.Controls.Add(this.btnLogOut);
             this.Controls.Add(this.materialCard4);
             this.Controls.Add(this.label1);
@@ -281,6 +294,7 @@
             this.Text = "ManagerAccountForm";
             this.materialCard4.ResumeLayout(false);
             this.materialCard4.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pbEdit)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -301,5 +315,6 @@
         private MaterialSkin.Controls.MaterialDivider materialDivider1;
         private System.Windows.Forms.Label label1;
         private ComponentFactory.Krypton.Toolkit.KryptonButton btnLogOut;
+        private System.Windows.Forms.PictureBox pbEdit;
     }
 }

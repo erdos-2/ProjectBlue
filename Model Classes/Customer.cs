@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ProjectBlue.Model_Classes
 {
-    internal class Customer
+    public class Customer
     {
         public int Id { get; set; }
         public string FullName { get; set; }
@@ -14,9 +14,11 @@ namespace ProjectBlue.Model_Classes
         public string AccountType { get; set; }
         public string EmailType { get; set; }
         public string Password { get; set; }
-        public List<Restaurant> FavoriteRestaurants { get; set; }
-        public List<Offering> FavoriteOfferings { get; set; }
-        public List<Offering> CurrentOrders { get; set; }
-        public List<Offering> PastOrders { get; set; }
+        // a customer can have multiple favorite offerings
+        public virtual ICollection<Offering> FavoriteOfferings { get; set; }
+        // a customer can have multiple favorite restaurants
+        public virtual ICollection<Restaurant> FavoriteRestaurants { get; set; }
+        // a customer can have multiple offering orders
+        public virtual ICollection<Offering> OrderedOfferings { get; set; }
     }
 }

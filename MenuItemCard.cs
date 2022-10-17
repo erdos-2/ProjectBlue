@@ -46,7 +46,7 @@ namespace ProjectBlue
         {
             InitializeComponent();
 
-            OfferingImage = offering1.Image;
+            OfferingImage = Program.ConvertByteArrToImage(offering1.Image);
             OfferingName = offering1.Name;
             Price = offering1.Price;
         }

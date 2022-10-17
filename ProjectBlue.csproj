@@ -123,6 +123,14 @@
     <Compile Include="MenuItemCard.Designer.cs">
       <DependentUpon>MenuItemCard.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202210170813313_FirstMigration.cs" />
+    <Compile Include="Migrations\202210170813313_FirstMigration.designer.cs">
+      <DependentUpon>202210170813313_FirstMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202210171128277_AddedModelClassesAndDefinedRelationships.cs" />
+    <Compile Include="Migrations\202210171128277_AddedModelClassesAndDefinedRelationships.designer.cs">
+      <DependentUpon>202210171128277_AddedModelClassesAndDefinedRelationships.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model Classes\Customer.cs" />
     <Compile Include="Model Classes\EniblaDbContext.cs" />
@@ -226,6 +234,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MenuItemCard.resx">
       <DependentUpon>MenuItemCard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210170813313_FirstMigration.resx">
+      <DependentUpon>202210170813313_FirstMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202210171128277_AddedModelClassesAndDefinedRelationships.resx">
+      <DependentUpon>202210171128277_AddedModelClassesAndDefinedRelationships.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OfferingCardFav.resx">
       <DependentUpon>OfferingCardFav.cs</DependentUpon>

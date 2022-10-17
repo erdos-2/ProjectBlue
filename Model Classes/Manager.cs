@@ -10,10 +10,11 @@ namespace ProjectBlue.Model_Classes
     {
         public int Id { get; set; }
         public string FullName { get; set; }
-        public string Username { get; set; } // should uniquely identify a user
+        public string Username { get; set; }
         public string AccountType { get; set; }
         public string EmailType { get; set; }
         public string Password { get; set; }
-        public List<Restaurant> Restaurants { get; set; } // the manager's restaurants
+        // a manager can own multiple restaurants
+        public ICollection<Restaurant> Restaurants { get; set; }
     }
 }

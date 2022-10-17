@@ -42,7 +42,7 @@ namespace ProjectBlue
         public OfferingCardFav(Offering offering)
         {
             InitializeComponent();
-            OfferingImage = offering.Image;
+            OfferingImage = Program.ConvertByteArrToImage(offering.Image);
             OfferingName = offering.Name;
             OfferingPrice = offering.Price;
         }

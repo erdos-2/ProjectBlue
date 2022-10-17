@@ -85,3 +85,5 @@ C:\Users\Mirus\Documents\Source Code\Project Files\ProjectBlue\obj\Debug\Project
 C:\Users\Mirus\Documents\Source Code\Project Files\ProjectBlue\obj\Debug\ProjectBlue.csproj.CopyComplete
 C:\Users\Mirus\Documents\Source Code\Project Files\ProjectBlue\obj\Debug\ProjectBlue.exe
 C:\Users\Mirus\Documents\Source Code\Project Files\ProjectBlue\obj\Debug\ProjectBlue.pdb
+C:\Users\Mirus\Documents\Source Code\Project Files\ProjectBlue\obj\Debug\ProjectBlue.Migrations.FirstMigration.resources
+C:\Users\Mirus\Documents\Source Code\Project Files\ProjectBlue\obj\Debug\ProjectBlue.Migrations.AddedModelClassesAndDefinedRelationships.resources

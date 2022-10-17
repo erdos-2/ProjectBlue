@@ -10,7 +10,7 @@ namespace ProjectBlue.Model_Classes
     public class Offering
     {
         public int Id { get; set; }
-        public Image Image { get; set; }
+        public byte[] Image { get; set; }
         public string Name { get; set; }
         public decimal Price { get; set; }
         public string ServiceOptions { get; set; }
@@ -19,9 +19,12 @@ namespace ProjectBlue.Model_Classes
         public string MealOfTheDay { get; set; }
         public string CourseOfMeal { get; set; }
         public string Cuisine { get; set; }
-        // Navigation Properties
+        // an offering can only belong to a restaurant
         public int RestaurantId { get; set; }
         public Restaurant Restaurant { get; set; }
-
+        // an offering can be multiple customers' favorite
+        public virtual ICollection<Customer> FavoringCustomers { get; set; }
+        // an offering can be ordered by multiple customers
+        public virtual ICollection<Customer> OrderingCustomers { get; set; }
     }
 }
